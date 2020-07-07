@@ -103,54 +103,15 @@ for(i in 1:length(list_daerah)){
 }
 
 penduduk = gsheet2tbl('https://docs.google.com/spreadsheets/d/180aeRoUNaSIFl2MKAu0G9V0j0jNJ7DVIt3glRNywUP4/edit#gid=1042545656')
-#list_nama_pend = c('Aceh', 'Bali','Banten','Bengkulu','Gorontalo','Jakarta','Jambi','Jabar','Jateng','Jatim','Kalbar','Kalsel',
-# 'Kalteng','Kaltim','Kaltara','Babel','Kepri','Lampung','Maluku','Malut','NTB','NTT','Papua','Papbar','Riau','Sulbar',
-#'Sulsel','Sulteng','Sultra','Sulut','Sumbar','Sumsel','Sumut','DIY')
-
-Aceh2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Aceh"))
-Bali2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Bali"))
-Babel2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Babel"))
-Banten2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Banten"))
-Bengkulu2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Bengkulu"))
-Gorontalo2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Gorontalo"))
-Jakarta2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Jakarta"))
-Jambi2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Jambi"))
-Jabar2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Jabar"))
-Jateng2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Jateng"))
-Jatim2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Jatim"))
-Kalbar2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Kalbar"))
-Kalsel2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Kalsel"))
-Kalteng2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Kalteng"))
-Kaltara2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Kaltara"))
-Kaltim2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Kaltim"))
-Kep_Riau2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Kepri"))
-Lampung2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Lampung"))
-Malut2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Malut"))
-Maluku2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Maluku"))
-NTB2 = penduduk %>% filter(str_detect(Provinsi, pattern = "NTB"))
-NTT2 = penduduk %>% filter(str_detect(Provinsi, pattern = "NTT"))
-Papbar2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Papbar"))
-Papua2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Papua"))
-Riau2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Riau"))
-Sulbar2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Sulbar"))
-Sulsel2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Sulsel"))
-Sulteng2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Sulteng"))
-Sultra2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Sultra"))
-Sulut2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Sulut"))
-Sumbar2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Sumbar"))
-Sumsel2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Sumsel"))
-Sumut2 = penduduk %>% filter(str_detect(Provinsi, pattern = "Sumut"))
-DIY2 = penduduk %>% filter(str_detect(Provinsi, pattern = "DIY"))
-
-list_daerah2 = list(Aceh2, Bali2, Babel2,Banten2,Bengkulu2,Gorontalo2,Jakarta2,Jambi2,Jabar2,Jateng2,Jatim2,Kalbar2,Kalsel2,
-                    Kalteng2,Kaltara2,Kaltim2,Kep_Riau2,Lampung2,Malut2,Maluku2,NTB2,NTT2,Papbar2,Papua2,Riau2,Sulbar2,
-                    Sulsel2,Sulteng2,Sultra2,Sulut2,Sumbar2,Sumsel2,Sumut2,DIY2)
-list_daerah_clean = list(Aceh = 0, Bali = 0, Babel = 0,Banten = 0,Bengkulu = 0,Gorontalo = 0,Jakarta = 0,Jambi = 0,Jabar = 0,Jateng = 0,Jatim = 0,Kalbar = 0,Kalsel = 0,
-                         Kalteng = 0,Kaltara = 0,Kaltim = 0,Kep_Riau = 0,Lampung = 0,Malut = 0,Maluku = 0,NTB = 0,NTT = 0,Papbar = 0,Papua = 0,Riau = 0,Sulbar = 0,
-                         Sulsel = 0,Sulteng = 0,Sultra = 0,Sulut = 0,Sumbar = 0,Sumsel = 0,Sumut = 0,DIY = 0)
+list_daerah2 = list()
 list_nama = c('Aceh', 'Bali', 'Babel','Banten','Bengkulu','Gorontalo','Jakarta','Jambi','Jabar','Jateng','Jatim','Kalbar','Kalsel',
-              'Kalteng','Kaltara','Kaltim','Kep Riau','Lampung','Malut','Maluku','NTB','NTT','Papbar','Papua','Riau','Sulbar',
+              'Kalteng','Kaltara','Kaltim','Kepri','Lampung','Malut','Maluku','NTB','NTT','Papbar','Papua','Riau','Sulbar',
               'Sulsel','Sulteng','Sultra','Sulut','Sumbar','Sumsel','Sumut','DIY')
+
+for(i in 1:length(list_nama)){
+  list_daerah2[[i]] = penduduk %>% filter(str_detect(Provinsi, pattern = list_nama[i]))
+}
+list_daerah_clean = list()
 
 for(k in 1:length(list_daerah2)){
   df = list_daerah2[[k]]
@@ -205,7 +166,7 @@ for(k in 1:length(list_daerah2)){
 df_daerah = merge(list_daerah_clean[[1]],list_daerah_clean[[2]], by = "ds")
 for(i in 3:length(list_daerah_clean)){
   dum3 = data.frame(list_daerah_clean[[i]])
-  df_daerah = merge(df_daerah, dum3, by = "ds")
+  df_daerah = merge(df_daerah, dum3, by = "ds", all = T)
 }
 df_daerah$ds = as.Date(df_daerah$ds, format="%Y-%m-%d")
 colnames(df_daerah)[1] = "Tanggal"
