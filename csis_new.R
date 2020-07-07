@@ -229,6 +229,7 @@ df_true = merge(df_mob_true, df_cov_true, all = T)
 df_inf_true = df_base %>% select(c(-`Mobility Index`,-`COVID Index`))
 df_true = merge(df_true, df_inf_true, all =T)
 df_true[is.na(df_true)] <- 0
+df_true = data.frame(df_true)
 
 update_last_cov = df_merged[nrow(df_merged),1]
 cut_latest_cov = which(df_merged$Tanggal == update_last_cov)
@@ -261,7 +262,7 @@ colnames(df_agg)[2] = "Aggregate"
 list_sheets = list(df_true, df_latest_cov, df_latest_mob, df_agg)
 sheet_names = c("df_update_new", "raw cov", "raw mob", "Agregat Mobility")
 
+
 for(i in 1:length(list_sheets)){
   sheet_write(list_sheets[[i]], 'https://docs.google.com/spreadsheets/d/15HrZEZGTjsH_xF8aKBTyPcqKeVpZcZB7eJ7s_-uK38I/edit', sheet = sheet_names[i])
 }
-
