@@ -1,0 +1,239 @@
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+'html' is deprecated.
+Use 'xml2::read_html' instead.
+See help("Deprecated") 
+trying URL 'https://data.humdata.org/dataset/c3429f0e-651b-4788-bb2f-4adbf222c90e/resource/31ca909c-10d9-458a-8720-88b54b3e3627/download/movement-range-data-2020-07-03.zip'
+Content type 'application/zip' length 23248954 bytes (22.2 MB)
+==================================================
+downloaded 22.2 MB
+
+Warning message:
+In for (i in 2:(n - 1)) { :
+  closing unused connection 3 (/tmp/Rtmp6OmSR4/file52863e6e743/movement-range-2020-07-03.txt)
+Warning message:
+Duplicated column names deduplicated: '0.71' => '0.71_1' [11], '0.69' => '0.69_1' [15], '0.59' => '0.59_1' [20], '0.27' => '0.27_1' [26], '0.26' => '0.26_1' [27], '0.31' => '0.31_1' [28], '0.60' => '0.60_1' [32], '0.40' => '0.40_1' [35] 
+Warning messages:
+1: Missing column names filled in: 'X36' [36], 'X45' [45], 'X47' [47], 'X91' [91] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38], 'Aceh' => 'Aceh_1' [48], 'Bali' => 'Bali_1' [49], 'Banten' => 'Banten_1' [50], 'Babel' => 'Babel_1' [51], 'Bengkulu' => 'Bengkulu_1' [52], 'DIY' => 'DIY_1' [53], 'Jakarta' => 'Jakarta_1' [54], 'Jambi' => 'Jambi_1' [55], 'Jabar' => 'Jabar_1' [56], 'Jateng' => 'Jateng_1' [57], 'Jatim' => 'Jatim_1' [58], 'Kalbar' => 'Kalbar_1' [59], 'Kaltim' => 'Kaltim_1' [60], 'Kalteng' => 'Kalteng_1' [61], 'Kalsel' => 'Kalsel_1' [62], 'Kaltara' => 'Kaltara_1' [63], 'Kep Riau' => 'Kep Riau_1' [64], 'NTB' => 'NTB_1' [65], 'Sumsel' => 'Sumsel_1' [66], 'Sumbar' => 'Sumbar_1' [67], 'Sulut' => 'Sulut_1' [68], 'Sumut' => 'Sumut_1' [69], 'Sultra' => 'Sultra_1' [70], 'Sulsel' => 'Sulsel_1' [71], 'Sulteng' => 'Sulteng_1' [72], 'Lampung' => 'Lampung_1' [73], 'Riau' => 'Riau_1' [74], 'Malut' => 'Malut_1' [75], 'Maluku' => 'Maluku_1' [76], 'Papbar' => 'Papbar_1' [77], 'Papua' => 'Papua_2' [78], 'Sulbar' => 'Sulbar_1' [79], 'NTT' => 'NTT_1' [80], 'Goron [... truncated] 
+Warning message:
+In for (i in seq_len(n)) { :
+  closing unused connection 4 (/tmp/Rtmp6OmSR4/file52863e6e743/movement-range-2020-07-03.txt)
+Error in which(df_merged$Tanggal == update_last) : 
+  object 'update_last' not found
+Execution halted
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+'html' is deprecated.
+Use 'xml2::read_html' instead.
+See help("Deprecated") 
+trying URL 'https://data.humdata.org/dataset/c3429f0e-651b-4788-bb2f-4adbf222c90e/resource/31ca909c-10d9-458a-8720-88b54b3e3627/download/movement-range-data-2020-07-03.zip'
+Content type 'application/zip' length 23248954 bytes (22.2 MB)
+==================================================
+downloaded 22.2 MB
+
+Warning message:
+In for (i in 2:(n - 1)) { :
+  closing unused connection 3 (/tmp/RtmpCN1KKm/file54963b24840/movement-range-2020-07-03.txt)
+Warning message:
+Duplicated column names deduplicated: '0.71' => '0.71_1' [11], '0.69' => '0.69_1' [15], '0.59' => '0.59_1' [20], '0.27' => '0.27_1' [26], '0.26' => '0.26_1' [27], '0.31' => '0.31_1' [28], '0.60' => '0.60_1' [32], '0.40' => '0.40_1' [35] 
+Warning messages:
+1: Missing column names filled in: 'X36' [36], 'X45' [45], 'X47' [47], 'X91' [91] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38], 'Aceh' => 'Aceh_1' [48], 'Bali' => 'Bali_1' [49], 'Banten' => 'Banten_1' [50], 'Babel' => 'Babel_1' [51], 'Bengkulu' => 'Bengkulu_1' [52], 'DIY' => 'DIY_1' [53], 'Jakarta' => 'Jakarta_1' [54], 'Jambi' => 'Jambi_1' [55], 'Jabar' => 'Jabar_1' [56], 'Jateng' => 'Jateng_1' [57], 'Jatim' => 'Jatim_1' [58], 'Kalbar' => 'Kalbar_1' [59], 'Kaltim' => 'Kaltim_1' [60], 'Kalteng' => 'Kalteng_1' [61], 'Kalsel' => 'Kalsel_1' [62], 'Kaltara' => 'Kaltara_1' [63], 'Kep Riau' => 'Kep Riau_1' [64], 'NTB' => 'NTB_1' [65], 'Sumsel' => 'Sumsel_1' [66], 'Sumbar' => 'Sumbar_1' [67], 'Sulut' => 'Sulut_1' [68], 'Sumut' => 'Sumut_1' [69], 'Sultra' => 'Sultra_1' [70], 'Sulsel' => 'Sulsel_1' [71], 'Sulteng' => 'Sulteng_1' [72], 'Lampung' => 'Lampung_1' [73], 'Riau' => 'Riau_1' [74], 'Malut' => 'Malut_1' [75], 'Maluku' => 'Maluku_1' [76], 'Papbar' => 'Papbar_1' [77], 'Papua' => 'Papua_2' [78], 'Sulbar' => 'Sulbar_1' [79], 'NTT' => 'NTT_1' [80], 'Goron [... truncated] 
+Warning message:
+In for (i in seq_len(n)) { :
+  closing unused connection 4 (/tmp/RtmpCN1KKm/file54963b24840/movement-range-2020-07-03.txt)
+Error in `[.data.frame`(df_merged, cut_latest:last_base, ) : 
+  object 'cut_latest' not found
+Calls: [ -> [.data.frame
+Execution halted
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+'html' is deprecated.
+Use 'xml2::read_html' instead.
+See help("Deprecated") 
+trying URL 'https://data.humdata.org/dataset/c3429f0e-651b-4788-bb2f-4adbf222c90e/resource/31ca909c-10d9-458a-8720-88b54b3e3627/download/movement-range-data-2020-07-03.zip'
+Content type 'application/zip' length 23248954 bytes (22.2 MB)
+==================================================
+downloaded 22.2 MB
+
+Warning message:
+In for (i in 2:(n - 1)) { :
+  closing unused connection 3 (/tmp/RtmpLax2A0/file5691e3c63d8/movement-range-2020-07-03.txt)
+Warning message:
+Duplicated column names deduplicated: '0.71' => '0.71_1' [11], '0.69' => '0.69_1' [15], '0.59' => '0.59_1' [20], '0.27' => '0.27_1' [26], '0.26' => '0.26_1' [27], '0.31' => '0.31_1' [28], '0.60' => '0.60_1' [32], '0.40' => '0.40_1' [35] 
+Warning messages:
+1: Missing column names filled in: 'X36' [36], 'X45' [45], 'X47' [47], 'X91' [91] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38], 'Aceh' => 'Aceh_1' [48], 'Bali' => 'Bali_1' [49], 'Banten' => 'Banten_1' [50], 'Babel' => 'Babel_1' [51], 'Bengkulu' => 'Bengkulu_1' [52], 'DIY' => 'DIY_1' [53], 'Jakarta' => 'Jakarta_1' [54], 'Jambi' => 'Jambi_1' [55], 'Jabar' => 'Jabar_1' [56], 'Jateng' => 'Jateng_1' [57], 'Jatim' => 'Jatim_1' [58], 'Kalbar' => 'Kalbar_1' [59], 'Kaltim' => 'Kaltim_1' [60], 'Kalteng' => 'Kalteng_1' [61], 'Kalsel' => 'Kalsel_1' [62], 'Kaltara' => 'Kaltara_1' [63], 'Kep Riau' => 'Kep Riau_1' [64], 'NTB' => 'NTB_1' [65], 'Sumsel' => 'Sumsel_1' [66], 'Sumbar' => 'Sumbar_1' [67], 'Sulut' => 'Sulut_1' [68], 'Sumut' => 'Sumut_1' [69], 'Sultra' => 'Sultra_1' [70], 'Sulsel' => 'Sulsel_1' [71], 'Sulteng' => 'Sulteng_1' [72], 'Lampung' => 'Lampung_1' [73], 'Riau' => 'Riau_1' [74], 'Malut' => 'Malut_1' [75], 'Maluku' => 'Maluku_1' [76], 'Papbar' => 'Papbar_1' [77], 'Papua' => 'Papua_2' [78], 'Sulbar' => 'Sulbar_1' [79], 'NTT' => 'NTT_1' [80], 'Goron [... truncated] 
+Warning message:
+In for (i in seq_len(n)) { :
+  closing unused connection 4 (/tmp/RtmpLax2A0/file5691e3c63d8/movement-range-2020-07-03.txt)
+Error in add_column(., new_col = NA, .before = "Aceh") : 
+  could not find function "add_column"
+Calls: %>% ... eval -> _fseq -> freduce -> withVisible -> <Anonymous>
+Execution halted
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+Warning message:
+'html' is deprecated.
+Use 'xml2::read_html' instead.
+See help("Deprecated") 
+trying URL 'https://data.humdata.org/dataset/c3429f0e-651b-4788-bb2f-4adbf222c90e/resource/31ca909c-10d9-458a-8720-88b54b3e3627/download/movement-range-data-2020-07-03.zip'
+Content type 'application/zip' length 23248954 bytes (22.2 MB)
+==================================================
+downloaded 22.2 MB
+
+Warning message:
+In for (a in as.list(elist)) if (!missing(a) && mayCallBrowser(a,  :
+  closing unused connection 3 (/tmp/RtmpTbOzEc/file590b6c462/movement-range-2020-07-03.txt)
+Warning message:
+Duplicated column names deduplicated: '0.71' => '0.71_1' [11], '0.69' => '0.69_1' [15], '0.59' => '0.59_1' [20], '0.27' => '0.27_1' [26], '0.26' => '0.26_1' [27], '0.31' => '0.31_1' [28], '0.60' => '0.60_1' [32], '0.40' => '0.40_1' [35] 
+Warning messages:
+1: Missing column names filled in: 'X36' [36], 'X45' [45], 'X47' [47], 'X91' [91] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38], 'Aceh' => 'Aceh_1' [48], 'Bali' => 'Bali_1' [49], 'Banten' => 'Banten_1' [50], 'Babel' => 'Babel_1' [51], 'Bengkulu' => 'Bengkulu_1' [52], 'DIY' => 'DIY_1' [53], 'Jakarta' => 'Jakarta_1' [54], 'Jambi' => 'Jambi_1' [55], 'Jabar' => 'Jabar_1' [56], 'Jateng' => 'Jateng_1' [57], 'Jatim' => 'Jatim_1' [58], 'Kalbar' => 'Kalbar_1' [59], 'Kaltim' => 'Kaltim_1' [60], 'Kalteng' => 'Kalteng_1' [61], 'Kalsel' => 'Kalsel_1' [62], 'Kaltara' => 'Kaltara_1' [63], 'Kep Riau' => 'Kep Riau_1' [64], 'NTB' => 'NTB_1' [65], 'Sumsel' => 'Sumsel_1' [66], 'Sumbar' => 'Sumbar_1' [67], 'Sulut' => 'Sulut_1' [68], 'Sumut' => 'Sumut_1' [69], 'Sultra' => 'Sultra_1' [70], 'Sulsel' => 'Sulsel_1' [71], 'Sulteng' => 'Sulteng_1' [72], 'Lampung' => 'Lampung_1' [73], 'Riau' => 'Riau_1' [74], 'Malut' => 'Malut_1' [75], 'Maluku' => 'Maluku_1' [76], 'Papbar' => 'Papbar_1' [77], 'Papua' => 'Papua_2' [78], 'Sulbar' => 'Sulbar_1' [79], 'NTT' => 'NTT_1' [80], 'Goron [... truncated] 
+Warning message:
+In for (i in seq_len(n)) { :
+  closing unused connection 4 (/tmp/RtmpTbOzEc/file590b6c462/movement-range-2020-07-03.txt)
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "COVID-MOBILITY DATA"
+Writing to sheet "df_update_new"
+Writing to "COVID-MOBILITY DATA"
+Writing to sheet "raw cov"
+Writing to "COVID-MOBILITY DATA"
+Writing to sheet "raw mob"
+Writing to "COVID-MOBILITY DATA"
+Writing to sheet "Agregat Mobility"
