@@ -262,6 +262,7 @@ colnames(df_agg)[2] = "Aggregate"
 list_sheets = list(df_true, df_latest_cov, df_latest_mob, df_agg)
 sheet_names = c("df_update_new", "raw cov", "raw mob", "Agregat Mobility")
 
+Sys.sleep(120)
 
 for(i in 1:length(list_sheets)){
   sheet_write(list_sheets[[i]], 'https://docs.google.com/spreadsheets/d/15HrZEZGTjsH_xF8aKBTyPcqKeVpZcZB7eJ7s_-uK38I/edit', sheet = sheet_names[i])
