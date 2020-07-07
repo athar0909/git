@@ -229,7 +229,7 @@ df_true = merge(df_mob_true, df_cov_true, all = T)
 df_inf_true = df_base %>% select(c(-`Mobility Index`,-`COVID Index`))
 df_true = merge(df_true, df_inf_true, all =T)
 df_true[is.na(df_true)] <- 0
-df_true = data.frame(df_true)
+
 
 update_last_cov = df_merged[nrow(df_merged),1]
 cut_latest_cov = which(df_merged$Tanggal == update_last_cov)
