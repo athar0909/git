@@ -259,7 +259,10 @@ df_agg = df_agg[,1:2]
 colnames(df_agg)[2] = "Aggregate"
 
 sheet_write(df_true, 'https://docs.google.com/spreadsheets/d/15HrZEZGTjsH_xF8aKBTyPcqKeVpZcZB7eJ7s_-uK38I/edit', sheet = "df_update_new")
+
 sheet_write(df_latest_cov, 'https://docs.google.com/spreadsheets/d/15HrZEZGTjsH_xF8aKBTyPcqKeVpZcZB7eJ7s_-uK38I/edit',sheet = "raw cov")
+
 sheet_write(df_latest_mob, 'https://docs.google.com/spreadsheets/d/15HrZEZGTjsH_xF8aKBTyPcqKeVpZcZB7eJ7s_-uK38I/edit',sheet = "raw mob")
+
 sheet_write(df_agg, 'https://docs.google.com/spreadsheets/d/15HrZEZGTjsH_xF8aKBTyPcqKeVpZcZB7eJ7s_-uK38I/edit',sheet = "Agregat Mobility")
 
