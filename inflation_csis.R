@@ -24,6 +24,7 @@ trad = c("Psr_Trad", "IHK Psr_Trad","Inf.MoM_Trad","MoM_Trad last","Inf.YoY_Trad
 mod = c("Psr_mod", "IHK Psr_mod","Inf.MoM_mod","MoM_mod last","Inf.YoY_mod","YoY_mod last")
 bsr = c("Pdg_Besar", "IHK Pdg_Besar","Inf.MoM_Bsr","MoM_Bsr last","Inf.YoY_Bsr","YoY_Bsr last")
 nama_sheet = list(trad,mod,bsr)
+sheet_list = list()
 
 for(k in 1:length(link_pasar)){
   ihk = gsheet2tbl(link_pasar[k])
@@ -156,15 +157,49 @@ for(k in 1:length(link_pasar)){
   inf_y_last_update = inf_y_last
   inf_y_update= inf_y_true
   
-  sheet_list = list(update,cpi_update,inf_m_update,inf_m_last_update,inf_y_update,inf_y_last_update)
+  sheet_list[[k]] = list(update,cpi_update,inf_m_update,inf_m_last_update,inf_y_update,inf_y_last_update)
   name_sheet = nama_sheet[[k]]
   
-  for(i in 1:length(sheet_list)){
+  for(i in 1:length(sheet_list[[k]])){
     Sys.sleep(10)
-    sheet_write(sheet_list[[i]],"https://docs.google.com/spreadsheets/d/15HrZEZGTjsH_xF8aKBTyPcqKeVpZcZB7eJ7s_-uK38I/edit", sheet = name_sheet[i] )
+    sheet_write(sheet_list[[k]][[i]],"https://docs.google.com/spreadsheets/d/15HrZEZGTjsH_xF8aKBTyPcqKeVpZcZB7eJ7s_-uK38I/edit", sheet = name_sheet[i] )
   }
   Sys.sleep(10)
 }
-  
-  
+
+inf_m_avg = data.frame()
+trad_mom = data.frame(sheet_list[[1]][3])
+mod_mom = data.frame(sheet_list[[2]][3])
+bsr_mom = data.frame(sheet_list[[3]][3])
+
+for(i in 1:nrow(trad_mom)){
+  inf_m_avg[i,1] = trad_mom[i,1]
+  inf_m_avg[i,2] = (trad_mom[i,12] + mod_mom[i,12] + bsr_mom[i,12])/3
+}
+colnames(inf_m_avg)[1] = "Tanggal"
+colnames(inf_m_avg)[2] = "Average Inflation"
+
+inf_y_avg = data.frame()
+trad_yoy = data.frame(sheet_list[[1]][5])
+mod_yoy = data.frame(sheet_list[[2]][5])
+bsr_yoy = data.frame(sheet_list[[3]][5])
+
+for(i in 1:nrow(trad_yoy)){
+  inf_y_avg[i,1] = trad_yoy[i,1]
+  inf_y_avg[i,2] = (trad_yoy[i,12] + mod_yoy[i,12] + bsr_yoy[i,12])/3
+}
+colnames(inf_y_avg)[1] = "Tanggal"
+colnames(inf_y_avg)[2] = "Average Inflation YoY"
+
+list_avg = list(inf_m_avg,inf_y_avg)
+nama_avg = c("Inf.MoM_Avg", "Inf.YoY_Avg")
+
+Sys.sleep(5)
+
+for(i in 1:length(list_avg)){
+  sheet_write(list_avg[[i]],"https://docs.google.com/spreadsheets/d/15HrZEZGTjsH_xF8aKBTyPcqKeVpZcZB7eJ7s_-uK38I/edit", sheet = nama_avg[i])
+}
+
+
+
   

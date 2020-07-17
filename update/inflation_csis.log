@@ -303,3 +303,488 @@ Writing to "Dashboard CSIS"
 Writing to sheet "Inf.YoY_Bsr"
 Writing to "Dashboard CSIS"
 Writing to sheet "YoY_Bsr last"
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+
+Attaching package: 'reshape2'
+
+The following object is masked from 'package:tidyr':
+
+    smiths
+
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Warning message:
+package 'lubridate' was built under R version 3.6.2 
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "Dashboard CSIS"
+Writing to sheet "Psr_Trad"
+Writing to "Dashboard CSIS"
+Writing to sheet "IHK Psr_Trad"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.MoM_Trad"
+Writing to "Dashboard CSIS"
+Writing to sheet "MoM_Trad last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.YoY_Trad"
+Writing to "Dashboard CSIS"
+Writing to sheet "YoY_Trad last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Psr_mod"
+Writing to "Dashboard CSIS"
+Writing to sheet "IHK Psr_mod"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.MoM_mod"
+Writing to "Dashboard CSIS"
+Writing to sheet "MoM_mod last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.YoY_mod"
+Writing to "Dashboard CSIS"
+Writing to sheet "YoY_mod last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Pdg_Besar"
+Writing to "Dashboard CSIS"
+Writing to sheet "IHK Pdg_Besar"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.MoM_Bsr"
+Writing to "Dashboard CSIS"
+Writing to sheet "MoM_Bsr last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.YoY_Bsr"
+Writing to "Dashboard CSIS"
+Writing to sheet "YoY_Bsr last"
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+
+Attaching package: 'reshape2'
+
+The following object is masked from 'package:tidyr':
+
+    smiths
+
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Warning message:
+package 'lubridate' was built under R version 3.6.2 
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "Dashboard CSIS"
+Writing to sheet "Psr_Trad"
+Writing to "Dashboard CSIS"
+Writing to sheet "IHK Psr_Trad"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.MoM_Trad"
+Writing to "Dashboard CSIS"
+Writing to sheet "MoM_Trad last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.YoY_Trad"
+Writing to "Dashboard CSIS"
+Writing to sheet "YoY_Trad last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Psr_mod"
+Writing to "Dashboard CSIS"
+Writing to sheet "IHK Psr_mod"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.MoM_mod"
+Writing to "Dashboard CSIS"
+Writing to sheet "MoM_mod last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.YoY_mod"
+Writing to "Dashboard CSIS"
+Writing to sheet "YoY_mod last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Pdg_Besar"
+Writing to "Dashboard CSIS"
+Writing to sheet "IHK Pdg_Besar"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.MoM_Bsr"
+Writing to "Dashboard CSIS"
+Writing to sheet "MoM_Bsr last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.YoY_Bsr"
+Writing to "Dashboard CSIS"
+Writing to sheet "YoY_Bsr last"
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+
+Attaching package: 'reshape2'
+
+The following object is masked from 'package:tidyr':
+
+    smiths
+
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Warning message:
+package 'lubridate' was built under R version 3.6.2 
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+Error: `data` must be a data frame:
+* `data` has class 'list'
+Execution halted
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+
+Attaching package: 'reshape2'
+
+The following object is masked from 'package:tidyr':
+
+    smiths
+
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Warning message:
+package 'lubridate' was built under R version 3.6.2 
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "Dashboard CSIS"
+Writing to sheet "Psr_Trad"
+Writing to "Dashboard CSIS"
+Writing to sheet "IHK Psr_Trad"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.MoM_Trad"
+Writing to "Dashboard CSIS"
+Writing to sheet "MoM_Trad last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.YoY_Trad"
+Writing to "Dashboard CSIS"
+Writing to sheet "YoY_Trad last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Psr_mod"
+Writing to "Dashboard CSIS"
+Writing to sheet "IHK Psr_mod"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.MoM_mod"
+Writing to "Dashboard CSIS"
+Writing to sheet "MoM_mod last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.YoY_mod"
+Writing to "Dashboard CSIS"
+Writing to sheet "YoY_mod last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Pdg_Besar"
+Writing to "Dashboard CSIS"
+Writing to sheet "IHK Pdg_Besar"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.MoM_Bsr"
+Writing to "Dashboard CSIS"
+Writing to sheet "MoM_Bsr last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.YoY_Bsr"
+Writing to "Dashboard CSIS"
+Writing to sheet "YoY_Bsr last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.MoM_Avg"
+Error: Client error: (400) INVALID_ARGUMENT
+  * Client specified an invalid argument. Check error message and error details for more information.
+  * Invalid requests[1].updateSheetProperties: Sorry, it is not possible to delete all non-frozen columns.
+Backtrace:
+    x
+ 1. \-googlesheets4::sheet_write(...)
+ 2.   \-gargle::response_process(resp_raw)
+ 3.     \-gargle:::stop_request_failed(error_message(resp), resp)
+Execution halted
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+
+Attaching package: 'reshape2'
+
+The following object is masked from 'package:tidyr':
+
+    smiths
+
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Warning message:
+package 'lubridate' was built under R version 3.6.2 
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Writing to "Dashboard CSIS"
+Writing to sheet "Psr_Trad"
+Writing to "Dashboard CSIS"
+Writing to sheet "IHK Psr_Trad"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.MoM_Trad"
+Writing to "Dashboard CSIS"
+Writing to sheet "MoM_Trad last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.YoY_Trad"
+Writing to "Dashboard CSIS"
+Writing to sheet "YoY_Trad last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Psr_mod"
+Writing to "Dashboard CSIS"
+Writing to sheet "IHK Psr_mod"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.MoM_mod"
+Writing to "Dashboard CSIS"
+Writing to sheet "MoM_mod last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.YoY_mod"
+Writing to "Dashboard CSIS"
+Writing to sheet "YoY_mod last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Pdg_Besar"
+Writing to "Dashboard CSIS"
+Writing to sheet "IHK Pdg_Besar"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.MoM_Bsr"
+Writing to "Dashboard CSIS"
+Writing to sheet "MoM_Bsr last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.YoY_Bsr"
+Writing to "Dashboard CSIS"
+Writing to sheet "YoY_Bsr last"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.MoM_Avg"
+Writing to "Dashboard CSIS"
+Writing to sheet "Inf.YoY_Avg"
