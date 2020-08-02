@@ -9,7 +9,7 @@ library(rvest)
 library(stringr)
 library(tibble)
 
-#LOAD DATA
+#MOBILITY
 url <- html("https://data.humdata.org/dataset/movement-range-maps")
 link = url %>%
   html_nodes("a") %>%       
@@ -24,21 +24,8 @@ unzip(zipfile = temp, exdir = temp2)
 dt = list.files(temp2, pattern = "movement.*.txt",full.names = T)
 idn = read.csv.sql(dt, header = T, sep = "\t", sql = "select * from file where `country` == 'IDN'")
 
-covid_timeline = gsheet2tbl('docs.google.com/spreadsheets/d/1Ll0g-MW8YPmwCRcdpElS9EtRNx9YKvschCLEv7CtxMg/edit#gid=1776420023')
-colnames(covid_timeline) <- as.character(unlist(covid_timeline[1,]))
-cut = which(covid_timeline[,1] == "aktif")
-covid_timeline <- covid_timeline[cut:nrow(covid_timeline),]
-colnames(covid_timeline) = covid_timeline[1,]
-covid_timeline = covid_timeline[-1,]
-covid_timeline = replace_with_na_all(covid_timeline, ~.x == '#DIV/0!')
-colnames(covid_timeline)[1] = "Tanggal"
-covid_infected = gsheet2tbl('https://docs.google.com/spreadsheets/d/1Ll0g-MW8YPmwCRcdpElS9EtRNx9YKvschCLEv7CtxMg/edit#gid=0')
-covid_infected = covid_infected[,1:35]
-colnames(covid_infected)[1] = "Tanggal"
-covid_death = gsheet2tbl('https://docs.google.com/spreadsheets/d/1Ll0g-MW8YPmwCRcdpElS9EtRNx9YKvschCLEv7CtxMg/edit#gid=1116188425')
-covid_death = covid_death[,1:35]
-colnames(covid_death)[1] = "Tanggal"
-
+#Data Penduduk
+agg_penduduk = gsheet2tbl('https://docs.google.com/spreadsheets/d/180aeRoUNaSIFl2MKAu0G9V0j0jNJ7DVIt3glRNywUP4/edit#gid=1070410237')
 
 # MOBILITY CLEANING
 Aceh1 = idn %>% filter(str_detect(polygon_id, pattern = "IDN.1\\. *"))
@@ -176,18 +163,68 @@ df_daerah$ds = as.Date(df_daerah$ds, format="%Y-%m-%d")
 colnames(df_daerah)[1] = "Tanggal"
 colnames(df_daerah)[18] = "Kep Riau"
 
-df_mob = df_daerah %>% gather('Aceh', 'Bali', 'Babel','Banten','Bengkulu','Gorontalo','Jakarta','Jambi','Jabar','Jateng','Jatim','Kalbar','Kalsel',
-                              'Kalteng','Kaltara','Kaltim','Kep Riau','Lampung','Malut','Maluku','NTB','NTT','Papbar','Papua','Riau','Sulbar',
-                              'Sulsel','Sulteng','Sultra','Sulut','Sumbar','Sumsel','Sumut','DIY',key='Provinsi',value='Mobility Index')
+cut_mob_bub = which(df_daerah$Tanggal == "2020-06-04")
+df_mob_bubble = df_daerah[cut_mob_bub:nrow(df_daerah),]
+base_mob_bub = df_mob_bubble[1,]
+for(i in 1:nrow(df_mob_bubble)){
+  df_mob_bubble[i,2:35] = df_mob_bubble[i,2:35] - base_mob_bub[1,2:35]
+}
 
-#COVID-19 INDEX
-covid_timeline$Tanggal = as.Date(covid_timeline$Tanggal, format="%d-%b-%y")
-covid_infected$Tanggal = as.Date(covid_infected$Tanggal, format="%d-%b-%y")
 
-df_inf = covid_infected %>% gather('Aceh', 'Bali', 'Babel','Banten','Bengkulu','Gorontalo','Jakarta','Jambi','Jabar','Jateng','Jatim','Kalbar','Kalsel',
-                                   'Kalteng','Kaltara','Kaltim','Kep Riau','Lampung','Malut','Maluku','NTB','NTT','Papbar','Papua','Riau','Sulbar',
-                                   'Sulsel','Sulteng','Sultra','Sulut','Sumbar','Sumsel','Sumut','DIY',key='Provinsi',value='Infected Population')
+mob_last = df_daerah[nrow(df_daerah),]
 
+agg_pend = agg_penduduk %>% select(-`Jumlah Penduduk`)
+agg_cek = pivot_wider(agg_pend, names_from = Provinsi, values_from = Persentase)
+agg_cek = agg_cek %>% add_column(new_col = NA, .before = "Aceh")
+colnames(agg_cek)[1] = "Tanggal"
+df_agg = bind_rows(df_daerah, agg_cek)
+for(i in 2:ncol(df_agg)){
+  df_agg[1:(nrow(df_agg)-1), i]  =  df_agg[1:(nrow(df_agg)-1), i]*df_agg[nrow(df_agg),i]
+}
+df_agg = df_agg[-nrow(df_agg),]
+for(j in 1:nrow(df_agg)){
+  df_agg[j,2] = sum(df_agg[j,2:ncol(df_agg)])
+}
+df_agg = df_agg[,1:2]
+colnames(df_agg)[2] = "Aggregate"
+
+df_mob = df_mob_bubble %>% gather('Aceh', 'Bali', 'Babel','Banten','Bengkulu','Gorontalo','Jakarta','Jambi','Jabar','Jateng','Jatim','Kalbar','Kalsel',
+                                  'Kalteng','Kaltara','Kaltim','Kep Riau','Lampung','Malut','Maluku','NTB','NTT','Papbar','Papua','Riau','Sulbar',
+                                  'Sulsel','Sulteng','Sultra','Sulut','Sumbar','Sumsel','Sumut','DIY',key='Provinsi',value='Mobility Index')
+  
+df_latest_mob = mob_last %>% gather('Aceh', 'Bali', 'Babel','Banten','Bengkulu','Gorontalo','Jakarta','Jambi','Jabar','Jateng','Jatim','Kalbar','Kalsel',
+                                    'Kalteng','Kaltara','Kaltim','Kep Riau','Lampung','Malut','Maluku','NTB','NTT','Papbar','Papua','Riau','Sulbar',
+                                    'Sulsel','Sulteng','Sultra','Sulut','Sumbar','Sumsel','Sumut','DIY',key='Provinsi',value='Mobility Index')
+
+
+#COVID INDEX
+covid_infected = gsheet2tbl('https://docs.google.com/spreadsheets/d/1Ll0g-MW8YPmwCRcdpElS9EtRNx9YKvschCLEv7CtxMg/edit#gid=0')
+covid_infected = covid_infected[,1:35]
+colnames(covid_infected)[1] = "Tanggal"
+
+tanggal = gsheet2tbl("https://docs.google.com/spreadsheets/d/1Ll0g-MW8YPmwCRcdpElS9EtRNx9YKvschCLEv7CtxMg/edit#gid=0")
+tanggal = tanggal[,1]
+colnames(tanggal) = "Tanggal"
+
+aktif = gsheet2tbl("https://docs.google.com/spreadsheets/d/1Ll0g-MW8YPmwCRcdpElS9EtRNx9YKvschCLEv7CtxMg/edit#gid=1233029347")
+header = colnames(aktif)[2:35]
+aktif = aktif[37:ncol(aktif)]
+aktif = aktif[-c(1,2,3),]
+colnames(aktif) = header
+aktif = aktif %>% add_column(new_col = NA, .before = "Aceh")
+aktif[,1] = tanggal[,1]
+colnames(aktif)[1] = "Tanggal"
+aktif$Tanggal = as.Date(aktif$Tanggal, format="%d-%b-%y")
+
+gr = gsheet2tbl("https://docs.google.com/spreadsheets/d/1Ll0g-MW8YPmwCRcdpElS9EtRNx9YKvschCLEv7CtxMg/edit#gid=1238289")
+gr = gr[-1,1:35]
+colnames(gr)[2:ncol(gr)] = header
+gr$Tanggal = as.Date(gr$Tanggal, format="%d-%b-%y")
+gr[,2:35] <- mutate_all(gr[,2:35], function(x) as.numeric(as.character(x)))
+
+covid_death = gsheet2tbl('https://docs.google.com/spreadsheets/d/1Ll0g-MW8YPmwCRcdpElS9EtRNx9YKvschCLEv7CtxMg/edit#gid=1116188425')
+covid_death = covid_death[,1:35]
+colnames(covid_death)[1] = "Tanggal"
 covid_death[is.na(covid_death)] <- 0
 cov_death = covid_death
 covid_death[,2:35] = 0
@@ -205,7 +242,6 @@ for(i in 1:(nrow(covid_death)-7)){
 }
 colnames(indeks_death) = colnames(covid_death)
 
-agg_penduduk = gsheet2tbl('https://docs.google.com/spreadsheets/d/180aeRoUNaSIFl2MKAu0G9V0j0jNJ7DVIt3glRNywUP4/edit#gid=1070410237')
 agg_pend = agg_penduduk %>% select(-`Persentase`)
 agg_cek = pivot_wider(agg_pend, names_from = Provinsi, values_from = `Jumlah Penduduk`)
 
@@ -213,118 +249,133 @@ calcdeath = bind_rows(indeks_death, agg_cek)
 for(i in 2:ncol(calcdeath)){
   calcdeath[1:(nrow(calcdeath)-1), i]  =  calcdeath[1:(nrow(calcdeath)-1), i]/calcdeath[nrow(calcdeath),i]
 }
-calcdeath = calcdeath[-nrow(calcdeath),]
-death_idx = data.frame()
+death = calcdeath[-nrow(calcdeath),]
+death$Tanggal = as.Date(death$Tanggal, format="%d-%b-%y")
 
-for(i in 1:nrow(calcdeath)){
-  death_idx[i,1]= calcdeath[i,1]
-  for(j in 2:ncol(calcdeath)){
-    death_idx[i,j] = (calcdeath[i,j] - min(calcdeath[i,2:35]))/(max(calcdeath[i,2:35])-min(calcdeath[i,2:35]))
+##INDEXING
+
+base_aktif = data.frame()
+base_aktif[1,1] = NA
+baseline_date = c("2020-04-01","2020-04-30", "2020-05-01")
+ak_low = which(aktif$Tanggal == baseline_date[1])
+ak_hi = which(aktif$Tanggal == baseline_date[2])
+
+for(i in 2:ncol(aktif)){
+  base_aktif[1,i] = mean(unname(unlist(aktif[ak_low:ak_hi,i])))
+}
+colnames(base_aktif) = colnames(aktif)
+
+start_ak = which(aktif$Tanggal == baseline_date[3])
+idx_aktif = aktif[start_ak:nrow(aktif),]
+idx_aktif = as.data.frame(bind_rows(idx_aktif, base_aktif))
+
+for(i in 2:ncol(idx_aktif)){
+  idx_aktif[1:(nrow(idx_aktif)-1), i]  =  log1p((idx_aktif[1:(nrow(idx_aktif)-1), i])/idx_aktif[nrow(idx_aktif),i])
+}
+idx_aktif = idx_aktif[-nrow(idx_aktif),]
+
+base_growth = data.frame()
+base_growth[1,1] = NA
+gr_low = which(gr$Tanggal == baseline_date[1])
+gr_hi = which(gr$Tanggal == baseline_date[2])
+
+for(i in 2:ncol(gr)){
+  base_growth[1,i] = mean(unname(unlist(gr[gr_low:gr_hi,i])))
+}
+colnames(base_growth) = colnames(gr)
+
+start_gr = which(gr$Tanggal == baseline_date[3])
+idx_gr = gr[start_gr:nrow(gr),]
+idx_gr = as.data.frame(bind_rows(idx_gr, base_growth))
+
+for(i in 2:ncol(idx_gr)){
+  idx_gr[1:(nrow(idx_gr)-1), i]  =  (idx_gr[1:(nrow(idx_gr)-1), i] - idx_gr[nrow(idx_gr),i])
+}
+idx_gr = idx_gr[-nrow(idx_gr),]
+
+base_death = data.frame()
+base_death[1,1] = NA
+dt_low = which(death$Tanggal == baseline_date[1])
+dt_hi = which(death$Tanggal == baseline_date[2])
+
+for(i in 2:ncol(death)){
+  base_death[1,i] = mean(unname(unlist(death[dt_low:dt_hi,i])))
+}
+colnames(base_death) = colnames(death)
+
+for(i in 2:ncol(base_death)){
+  if(base_death[1,i] == 0){
+    base_death[1,i] = min(death[death[,i] > 0, i])
   }
 }
-death_idx[is.na(death_idx)] <- 0
-colnames(death_idx) = colnames(covid_death)
-death_idx$Tanggal = as.Date(death_idx$Tanggal, format="%d-%b-%y")
-covid_timeline[,2:35] <- mutate_all(covid_timeline[,2:35], function(x) as.numeric(as.character(x)))
-cov_timeline = covid_timeline[8:nrow(covid_timeline),]
-df_cov_new = data.frame()
-for(i in 1:nrow(cov_timeline)){
-  df_cov_new[i,1] = cov_timeline[i,1]
-  df_cov_new[i,2:35] = (cov_timeline[i,2:35]*3 + death_idx[i,2:35])/4
+
+start_dt = which(death$Tanggal == baseline_date[3])
+idx_dt = death[start_dt:nrow(death),]
+
+idx_dt = as.data.frame(bind_rows(idx_dt, base_death))
+
+for(i in 2:ncol(idx_dt)){
+  idx_dt[1:(nrow(idx_dt)-1), i]  =  log1p(idx_dt[1:(nrow(idx_dt)-1), i]/idx_dt[nrow(idx_dt),i])
 }
-df_cov_new = df_cov_new %>% add_column(new_col = NA, .after = "Tanggal")
-colnames(df_cov_new)[2] = "National Weighted Average"
+idx_dt = idx_dt[-nrow(idx_dt),]
+idx_dt[is.na(idx_dt)] <- 0
+
+idx_cov = data.frame()
+for(i in 1:nrow(idx_aktif)){
+  idx_cov[i,1] = idx_aktif[i,1]
+  idx_cov[i,2:35] = (idx_aktif[i,2:35] + idx_gr[i,2:35] + idx_dt[i,2:35])/3
+}
+colnames(idx_cov)[1] = "Tanggal"
+idx_cov = idx_cov %>% add_column(new_col = NA, .after = "Tanggal")
+colnames(idx_cov)[2] = "National Weighted Average"
 agg_pend = agg_penduduk %>% select(-`Jumlah Penduduk`)
 agg_cek = pivot_wider(agg_pend, names_from = Provinsi, values_from = Persentase)
-df_cov_newest = bind_rows(df_cov_new, agg_cek)
-for(i in 1:nrow(df_cov_newest)){
-  df_cov_newest[i,2] = sum(df_cov_newest[i,3:ncol(df_cov_newest)]*df_cov_newest[nrow(df_cov_newest),3:ncol(df_cov_newest)])
+idx_cov_new = bind_rows(idx_cov, agg_cek)
+for(i in 1:(nrow(idx_cov_new)-1)){
+  idx_cov_new[i,2] = sum(idx_cov_new[i,3:ncol(idx_cov_new)]*idx_cov_new[nrow(idx_cov_new),3:ncol(idx_cov_new)])
 }
-df_cov_newest = df_cov_newest[-nrow(df_cov_newest),]
-df_cov_fixed = df_cov_newest[,-2]
-df_cov_agg = df_cov_newest %>% select(c("Tanggal","National Weighted Average"))
-df_cov = df_cov_fixed %>% gather('Aceh', 'Bali', 'Babel','Banten','Bengkulu','Gorontalo','Jakarta','Jambi','Jabar','Jateng','Jatim','Kalbar','Kalsel',
-                                   'Kalteng','Kaltara','Kaltim','Kep Riau','Lampung','Malut','Maluku','NTB','NTT','Papbar','Papua','Riau','Sulbar',
-                                   'Sulsel','Sulteng','Sultra','Sulut','Sumbar','Sumsel','Sumut','DIY',key='Provinsi',value='COVID Index')
+idx_cov_new = idx_cov_new[-nrow(idx_cov_new),]
+idx_cov_fixed = idx_cov_new[,-2]
+df_cov_agg = idx_cov_new %>% select(c("Tanggal","National Weighted Average"))
 
-#MERGING DATASETS
+cut_bub = which(idx_cov_fixed$Tanggal == "2020-06-04")
+idx_cov_bubble = idx_cov_fixed[cut_bub:nrow(idx_cov_fixed),]
+
+base_cov = idx_cov_bubble[1,]
+for(i in 1:nrow(idx_cov_bubble)){
+  idx_cov_bubble[i,2:35] = base_cov[1,2:35] - idx_cov_bubble[i,2:35]
+}
+
+idx_cov_last = idx_cov_fixed[nrow(idx_cov_fixed),]
+
+covid_infected$Tanggal = as.Date(covid_infected$Tanggal, format="%d-%b-%y")
+cut_infected = which(covid_infected$Tanggal == "2020-06-04")
+cov_inf = covid_infected[cut_infected:nrow(covid_infected),]
+df_inf = cov_inf %>% gather('Aceh', 'Bali', 'Babel','Banten','Bengkulu','Gorontalo','Jakarta','Jambi','Jabar','Jateng','Jatim','Kalbar','Kalsel',
+                            'Kalteng','Kaltara','Kaltim','Kep Riau','Lampung','Malut','Maluku','NTB','NTT','Papbar','Papua','Riau','Sulbar',
+                            'Sulsel','Sulteng','Sultra','Sulut','Sumbar','Sumsel','Sumut','DIY',key='Provinsi',value='Active Cases')
+
+df_cov = idx_cov_bubble %>% gather('Aceh', 'Bali', 'Babel','Banten','Bengkulu','Gorontalo','Jakarta','Jambi','Jabar','Jateng','Jatim','Kalbar','Kalsel',
+                                 'Kalteng','Kaltara','Kaltim','Kep Riau','Lampung','Malut','Maluku','NTB','NTT','Papbar','Papua','Riau','Sulbar',
+                                 'Sulsel','Sulteng','Sultra','Sulut','Sumbar','Sumsel','Sumut','DIY',key='Provinsi',value='COVID Index')
+
+df_latest_cov = idx_cov_last %>% gather('Aceh', 'Bali', 'Babel','Banten','Bengkulu','Gorontalo','Jakarta','Jambi','Jabar','Jateng','Jatim','Kalbar','Kalsel',
+                                        'Kalteng','Kaltara','Kaltim','Kep Riau','Lampung','Malut','Maluku','NTB','NTT','Papbar','Papua','Riau','Sulbar',
+                                        'Sulsel','Sulteng','Sultra','Sulut','Sumbar','Sumsel','Sumut','DIY',key='Provinsi',value='COVID Index')
+
+#MERGING
 df_merged = merge(df_mob, df_cov, all = T)
-df_merged = merge(df_merged,df_inf, all =T)
-
-#UPDATING
-nrows_mob = nrow(df_mob)
-last_date = df_mob[nrows_mob,1]
-cut_row = which(df_merged$Tanggal == last_date)
-cut_row = cut_row[length(cut_row)]
-df_update = df_merged[1:cut_row,]
-base_date = which(df_merged$Tanggal == "2020-06-04")
-cut_base = base_date[1]
-last_base = nrow(df_merged)
-df_base = df_merged[cut_base:last_base,]
-df_base_mob = df_base[,1:3]
-df_true_mob = pivot_wider(df_base_mob, id_cols = Tanggal, names_from = Provinsi, values_from = `Mobility Index`)
-df_base_cov = df_base %>% select(c(-`Mobility Index`,-`Infected Population`))
-df_true_cov = pivot_wider(df_base_cov, id_cols = Tanggal, names_from = Provinsi, values_from = `COVID Index`)
-df_true_cov[,2:35] <- mutate_all(df_true_cov[,2:35], function(x) as.numeric(as.character(x)))
-base_data_mob = df_true_mob[1,]
-base_data_cov = df_true_cov[1,]
-
-for(i in 1:nrow(df_true_mob)){
-  df_true_mob[i,2:35] = df_true_mob[i,2:35] - base_data_mob[1,2:35]
-}
-
-for(i in 1:nrow(df_true_cov)){
-  df_true_cov[i,2:35] = base_data_cov[1,2:35] - df_true_cov[i,2:35]
-}
-
-df_mob_true = df_true_mob %>% gather('Aceh', 'Bali', 'Babel','Banten','Bengkulu','Gorontalo','Jakarta','Jambi','Jabar','Jateng','Jatim','Kalbar','Kalsel',
-                                     'Kalteng','Kaltara','Kaltim','Kep Riau','Lampung','Malut','Maluku','NTB','NTT','Papbar','Papua','Riau','Sulbar',
-                                     'Sulsel','Sulteng','Sultra','Sulut','Sumbar','Sumsel','Sumut','DIY',key='Provinsi',value='Mobility Index')
-
-df_cov_true = df_true_cov %>% gather('Aceh', 'Bali', 'Babel','Banten','Bengkulu','Gorontalo','Jakarta','Jambi','Jabar','Jateng','Jatim','Kalbar','Kalsel',
-                                     'Kalteng','Kaltara','Kaltim','Kep Riau','Lampung','Malut','Maluku','NTB','NTT','Papbar','Papua','Riau','Sulbar',
-                                     'Sulsel','Sulteng','Sultra','Sulut','Sumbar','Sumsel','Sumut','DIY',key='Provinsi',value='COVID Index')
-
-df_true = merge(df_mob_true, df_cov_true, all = T)
-df_inf_true = df_base %>% select(c(-`Mobility Index`,-`COVID Index`))
-df_true = merge(df_true, df_inf_true, all =T)
+df_true = merge(df_merged,df_inf, all =T)
 df_true[is.na(df_true)] <- 0
 
-
-update_last_cov = df_merged[nrow(df_merged),1]
-cut_latest_cov = which(df_merged$Tanggal == update_last_cov)
-cut_latest_cov = cut_latest_cov[1]
-df_latest_cov = df_merged[cut_latest_cov:last_base,]
-df_latest_cov = df_latest_cov %>% select(c(-`Mobility Index`,-`Infected Population`))
-
-update_last_mob = which(df_merged$Tanggal == last_date)
-update_low_mob = update_last_mob[1]
-update_high_mob = update_last_mob[length(update_last_mob)]
-df_latest_mob = df_merged[update_low_mob:update_high_mob,]
-df_latest_mob = df_latest_mob[,1:3]
-
-agg_pend = agg_penduduk %>% select(-`Jumlah Penduduk`)
-agg_cek = pivot_wider(agg_pend, names_from = Provinsi, values_from = Persentase)
-agg_cek = agg_cek %>% add_column(new_col = NA, .before = "Aceh")
-colnames(agg_cek)[1] = "Tanggal"
-df_agg = bind_rows(df_daerah, agg_cek)
-for(i in 2:ncol(df_agg)){
-  df_agg[1:(nrow(df_agg)-1), i]  =  df_agg[1:(nrow(df_agg)-1), i]*df_agg[nrow(df_agg),i]
-}
-df_agg = df_agg[-nrow(df_agg),]
-for(j in 1:nrow(df_agg)){
-  df_agg[j,2] = sum(df_agg[j,2:ncol(df_agg)])
-}
-df_agg = df_agg[,1:2]
-colnames(df_agg)[2] = "Aggregate"
-colnames(df_true)[5] = "Active Cases"
-
-list_sheets = list(df_true, df_latest_cov, df_latest_mob, df_agg, df_cov_agg, df_cov_fixed, df_daerah)
+list_sheets = list(df_true, df_latest_cov, df_latest_mob, df_agg, df_cov_agg, idx_cov_fixed, df_daerah)
 sheet_names = c("df_update_new", "last cov", "last mob", "Agregat Mobility", "Agregat COVID", "raw cov","raw mob")
 
 Sys.sleep(120)
 
 for(i in 1:length(list_sheets)){
   sheet_write(list_sheets[[i]], 'https://docs.google.com/spreadsheets/d/15HrZEZGTjsH_xF8aKBTyPcqKeVpZcZB7eJ7s_-uK38I/edit', sheet = sheet_names[i])
-  Sys.sleep(5)
+  Sys.sleep(15)
 }
+
+

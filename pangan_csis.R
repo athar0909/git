@@ -85,10 +85,10 @@ for(i in 1:length(categories)){
   list_data[[i]] = combine
 }
 
-Sys.sleep(60)
+Sys.sleep(120)
 
 for(i in 1:length(list_data)){
   sheet_write(list_data[[i]],"https://docs.google.com/spreadsheets/d/15HrZEZGTjsH_xF8aKBTyPcqKeVpZcZB7eJ7s_-uK38I/edit", sheet = nama_sheet[i] )
-  Sys.sleep(15)
+  Sys.sleep(30)
 }
 

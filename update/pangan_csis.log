@@ -871,3 +871,1959 @@ Error: Expected content type 'application/json' not 'text/html'.
   <title>Error 408 (Request Timeout)!!1</title>
   <style>...
 Execution halted
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: 'gdata'
+
+The following objects are masked from 'package:dplyr':
+
+    combine, first, last
+
+The following object is masked from 'package:stats':
+
+    nobs
+
+The following object is masked from 'package:utils':
+
+    object.size
+
+The following object is masked from 'package:base':
+
+    startsWith
+
+Loading required package: NLP
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-1&date=2020-07-17&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-2&date=2020-07-17&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-3&date=2020-07-17&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-4&date=2020-07-17&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-5&date=2020-07-17&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-6&date=2020-07-17&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-7&date=2020-07-17&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-8&date=2020-07-17&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-9&date=2020-07-17&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-10&date=2020-07-17&format=xls&is_external=1'
+downloaded 80 KB
+
+There were 20 warnings (use warnings() to see them)
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "Dashboard CSIS"
+Writing to sheet "Beras"
+Writing to "Dashboard CSIS"
+Writing to sheet "Ayam"
+Writing to "Dashboard CSIS"
+Writing to sheet "Sapi"
+Writing to "Dashboard CSIS"
+Writing to sheet "Telor"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang putih"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe rawit"
+Writing to "Dashboard CSIS"
+Writing to sheet "Minyak"
+Writing to "Dashboard CSIS"
+Writing to sheet "Gula"
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: 'gdata'
+
+The following objects are masked from 'package:dplyr':
+
+    combine, first, last
+
+The following object is masked from 'package:stats':
+
+    nobs
+
+The following object is masked from 'package:utils':
+
+    object.size
+
+The following object is masked from 'package:base':
+
+    startsWith
+
+Loading required package: NLP
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-1&date=2020-07-17&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-2&date=2020-07-17&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-3&date=2020-07-17&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-4&date=2020-07-17&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-5&date=2020-07-17&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-6&date=2020-07-17&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-7&date=2020-07-17&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-8&date=2020-07-17&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-9&date=2020-07-17&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-10&date=2020-07-17&format=xls&is_external=1'
+downloaded 80 KB
+
+There were 20 warnings (use warnings() to see them)
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "Dashboard CSIS"
+Writing to sheet "Beras"
+Writing to "Dashboard CSIS"
+Writing to sheet "Ayam"
+Writing to "Dashboard CSIS"
+Writing to sheet "Sapi"
+Writing to "Dashboard CSIS"
+Writing to sheet "Telor"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang putih"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe rawit"
+Writing to "Dashboard CSIS"
+Writing to sheet "Minyak"
+Writing to "Dashboard CSIS"
+Writing to sheet "Gula"
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: 'gdata'
+
+The following objects are masked from 'package:dplyr':
+
+    combine, first, last
+
+The following object is masked from 'package:stats':
+
+    nobs
+
+The following object is masked from 'package:utils':
+
+    object.size
+
+The following object is masked from 'package:base':
+
+    startsWith
+
+Loading required package: NLP
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-1&date=2020-07-20&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-2&date=2020-07-20&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-3&date=2020-07-20&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-4&date=2020-07-20&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-5&date=2020-07-20&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-6&date=2020-07-20&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-7&date=2020-07-20&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-8&date=2020-07-20&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-9&date=2020-07-20&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-10&date=2020-07-20&format=xls&is_external=1'
+downloaded 80 KB
+
+There were 30 warnings (use warnings() to see them)
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "Dashboard CSIS"
+Writing to sheet "Beras"
+Writing to "Dashboard CSIS"
+Writing to sheet "Ayam"
+Writing to "Dashboard CSIS"
+Writing to sheet "Sapi"
+Writing to "Dashboard CSIS"
+Writing to sheet "Telor"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang putih"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe rawit"
+Writing to "Dashboard CSIS"
+Writing to sheet "Minyak"
+Writing to "Dashboard CSIS"
+Writing to sheet "Gula"
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: 'gdata'
+
+The following objects are masked from 'package:dplyr':
+
+    combine, first, last
+
+The following object is masked from 'package:stats':
+
+    nobs
+
+The following object is masked from 'package:utils':
+
+    object.size
+
+The following object is masked from 'package:base':
+
+    startsWith
+
+Loading required package: NLP
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-1&date=2020-07-21&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-2&date=2020-07-21&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-3&date=2020-07-21&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-4&date=2020-07-21&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-5&date=2020-07-21&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-6&date=2020-07-21&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-7&date=2020-07-21&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-8&date=2020-07-21&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-9&date=2020-07-21&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-10&date=2020-07-21&format=xls&is_external=1'
+downloaded 80 KB
+
+There were 20 warnings (use warnings() to see them)
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "Dashboard CSIS"
+Writing to sheet "Beras"
+Writing to "Dashboard CSIS"
+Writing to sheet "Ayam"
+Writing to "Dashboard CSIS"
+Writing to sheet "Sapi"
+Writing to "Dashboard CSIS"
+Writing to sheet "Telor"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang putih"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe rawit"
+Writing to "Dashboard CSIS"
+Writing to sheet "Minyak"
+Writing to "Dashboard CSIS"
+Writing to sheet "Gula"
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: 'gdata'
+
+The following objects are masked from 'package:dplyr':
+
+    combine, first, last
+
+The following object is masked from 'package:stats':
+
+    nobs
+
+The following object is masked from 'package:utils':
+
+    object.size
+
+The following object is masked from 'package:base':
+
+    startsWith
+
+Loading required package: NLP
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-1&date=2020-07-22&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-2&date=2020-07-22&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-3&date=2020-07-22&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-4&date=2020-07-22&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-5&date=2020-07-22&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-6&date=2020-07-22&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-7&date=2020-07-22&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-8&date=2020-07-22&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-9&date=2020-07-22&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-10&date=2020-07-22&format=xls&is_external=1'
+downloaded 80 KB
+
+There were 40 warnings (use warnings() to see them)
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Writing to "Dashboard CSIS"
+Writing to sheet "Beras"
+Writing to "Dashboard CSIS"
+Writing to sheet "Ayam"
+Writing to "Dashboard CSIS"
+Writing to sheet "Sapi"
+Writing to "Dashboard CSIS"
+Writing to sheet "Telor"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang putih"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe rawit"
+Writing to "Dashboard CSIS"
+Writing to sheet "Minyak"
+Writing to "Dashboard CSIS"
+Writing to sheet "Gula"
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: 'gdata'
+
+The following objects are masked from 'package:dplyr':
+
+    combine, first, last
+
+The following object is masked from 'package:stats':
+
+    nobs
+
+The following object is masked from 'package:utils':
+
+    object.size
+
+The following object is masked from 'package:base':
+
+    startsWith
+
+Loading required package: NLP
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-1&date=2020-07-23&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-2&date=2020-07-23&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-3&date=2020-07-23&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-4&date=2020-07-23&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-5&date=2020-07-23&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-6&date=2020-07-23&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-7&date=2020-07-23&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-8&date=2020-07-23&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-9&date=2020-07-23&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-10&date=2020-07-23&format=xls&is_external=1'
+downloaded 80 KB
+
+There were 30 warnings (use warnings() to see them)
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "Dashboard CSIS"
+Writing to sheet "Beras"
+Writing to "Dashboard CSIS"
+Writing to sheet "Ayam"
+Writing to "Dashboard CSIS"
+Writing to sheet "Sapi"
+Writing to "Dashboard CSIS"
+Writing to sheet "Telor"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang putih"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe rawit"
+Writing to "Dashboard CSIS"
+Writing to sheet "Minyak"
+Writing to "Dashboard CSIS"
+Writing to sheet "Gula"
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: 'gdata'
+
+The following objects are masked from 'package:dplyr':
+
+    combine, first, last
+
+The following object is masked from 'package:stats':
+
+    nobs
+
+The following object is masked from 'package:utils':
+
+    object.size
+
+The following object is masked from 'package:base':
+
+    startsWith
+
+Loading required package: NLP
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-1&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-2&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-3&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-4&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-5&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-6&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-7&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-8&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-9&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-10&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+There were 30 warnings (use warnings() to see them)
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "Dashboard CSIS"
+Writing to sheet "Beras"
+Writing to "Dashboard CSIS"
+Writing to sheet "Ayam"
+Writing to "Dashboard CSIS"
+Writing to sheet "Sapi"
+Writing to "Dashboard CSIS"
+Writing to sheet "Telor"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang putih"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe rawit"
+Writing to "Dashboard CSIS"
+Writing to sheet "Minyak"
+Writing to "Dashboard CSIS"
+Writing to sheet "Gula"
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: 'gdata'
+
+The following objects are masked from 'package:dplyr':
+
+    combine, first, last
+
+The following object is masked from 'package:stats':
+
+    nobs
+
+The following object is masked from 'package:utils':
+
+    object.size
+
+The following object is masked from 'package:base':
+
+    startsWith
+
+Loading required package: NLP
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-1&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-2&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-3&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-4&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-5&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-6&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-7&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-8&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-9&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-10&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+There were 30 warnings (use warnings() to see them)
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Writing to "Dashboard CSIS"
+Writing to sheet "Beras"
+Writing to "Dashboard CSIS"
+Writing to sheet "Ayam"
+Writing to "Dashboard CSIS"
+Writing to sheet "Sapi"
+Writing to "Dashboard CSIS"
+Writing to sheet "Telor"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang putih"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe rawit"
+Writing to "Dashboard CSIS"
+Writing to sheet "Minyak"
+Writing to "Dashboard CSIS"
+Writing to sheet "Gula"
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: 'gdata'
+
+The following objects are masked from 'package:dplyr':
+
+    combine, first, last
+
+The following object is masked from 'package:stats':
+
+    nobs
+
+The following object is masked from 'package:utils':
+
+    object.size
+
+The following object is masked from 'package:base':
+
+    startsWith
+
+Loading required package: NLP
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-1&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-2&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-3&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-4&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-5&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-6&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-7&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-8&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-9&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-10&date=2020-07-24&format=xls&is_external=1'
+downloaded 80 KB
+
+There were 30 warnings (use warnings() to see them)
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Writing to "Dashboard CSIS"
+Writing to sheet "Beras"
+Writing to "Dashboard CSIS"
+Writing to sheet "Ayam"
+Writing to "Dashboard CSIS"
+Writing to sheet "Sapi"
+Writing to "Dashboard CSIS"
+Writing to sheet "Telor"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang putih"
+Error: Expected content type 'application/json' not 'text/html'.
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 408 (Request Timeout)!!1</title>
+  <style>...
+Execution halted
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: 'gdata'
+
+The following objects are masked from 'package:dplyr':
+
+    combine, first, last
+
+The following object is masked from 'package:stats':
+
+    nobs
+
+The following object is masked from 'package:utils':
+
+    object.size
+
+The following object is masked from 'package:base':
+
+    startsWith
+
+Loading required package: NLP
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-1&date=2020-07-27&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-2&date=2020-07-27&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-3&date=2020-07-27&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-4&date=2020-07-27&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-5&date=2020-07-27&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-6&date=2020-07-27&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-7&date=2020-07-27&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-8&date=2020-07-27&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-9&date=2020-07-27&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-10&date=2020-07-27&format=xls&is_external=1'
+downloaded 80 KB
+
+There were 30 warnings (use warnings() to see them)
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "Dashboard CSIS"
+Writing to sheet "Beras"
+Writing to "Dashboard CSIS"
+Writing to sheet "Ayam"
+Writing to "Dashboard CSIS"
+Writing to sheet "Sapi"
+Error: Expected content type 'application/json' not 'text/html'.
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 408 (Request Timeout)!!1</title>
+  <style>...
+Execution halted
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: 'gdata'
+
+The following objects are masked from 'package:dplyr':
+
+    combine, first, last
+
+The following object is masked from 'package:stats':
+
+    nobs
+
+The following object is masked from 'package:utils':
+
+    object.size
+
+The following object is masked from 'package:base':
+
+    startsWith
+
+Loading required package: NLP
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-1&date=2020-07-28&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-2&date=2020-07-28&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-3&date=2020-07-28&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-4&date=2020-07-28&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-5&date=2020-07-28&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-6&date=2020-07-28&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-7&date=2020-07-28&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-8&date=2020-07-28&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-9&date=2020-07-28&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-10&date=2020-07-28&format=xls&is_external=1'
+downloaded 80 KB
+
+There were 40 warnings (use warnings() to see them)
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "Dashboard CSIS"
+Writing to sheet "Beras"
+Error: Expected content type 'application/json' not 'text/html'.
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 408 (Request Timeout)!!1</title>
+  <style>...
+Execution halted
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: 'gdata'
+
+The following objects are masked from 'package:dplyr':
+
+    combine, first, last
+
+The following object is masked from 'package:stats':
+
+    nobs
+
+The following object is masked from 'package:utils':
+
+    object.size
+
+The following object is masked from 'package:base':
+
+    startsWith
+
+Loading required package: NLP
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-1&date=2020-07-29&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-2&date=2020-07-29&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-3&date=2020-07-29&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-4&date=2020-07-29&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-5&date=2020-07-29&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-6&date=2020-07-29&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-7&date=2020-07-29&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-8&date=2020-07-29&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-9&date=2020-07-29&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-10&date=2020-07-29&format=xls&is_external=1'
+downloaded 80 KB
+
+There were 30 warnings (use warnings() to see them)
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Writing to "Dashboard CSIS"
+Writing to sheet "Beras"
+Writing to "Dashboard CSIS"
+Writing to sheet "Ayam"
+Writing to "Dashboard CSIS"
+Writing to sheet "Sapi"
+Writing to "Dashboard CSIS"
+Writing to sheet "Telor"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang putih"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe rawit"
+Writing to "Dashboard CSIS"
+Writing to sheet "Minyak"
+Writing to "Dashboard CSIS"
+Writing to sheet "Gula"
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: 'gdata'
+
+The following objects are masked from 'package:dplyr':
+
+    combine, first, last
+
+The following object is masked from 'package:stats':
+
+    nobs
+
+The following object is masked from 'package:utils':
+
+    object.size
+
+The following object is masked from 'package:base':
+
+    startsWith
+
+Loading required package: NLP
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-1&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-2&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-3&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-4&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-5&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-6&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-7&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-8&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-9&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-10&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+There were 30 warnings (use warnings() to see them)
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Writing to "Dashboard CSIS"
+Writing to sheet "Beras"
+Writing to "Dashboard CSIS"
+Writing to sheet "Ayam"
+Writing to "Dashboard CSIS"
+Writing to sheet "Sapi"
+Writing to "Dashboard CSIS"
+Writing to sheet "Telor"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang putih"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe rawit"
+Writing to "Dashboard CSIS"
+Writing to sheet "Minyak"
+Writing to "Dashboard CSIS"
+Writing to sheet "Gula"
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: 'gdata'
+
+The following objects are masked from 'package:dplyr':
+
+    combine, first, last
+
+The following object is masked from 'package:stats':
+
+    nobs
+
+The following object is masked from 'package:utils':
+
+    object.size
+
+The following object is masked from 'package:base':
+
+    startsWith
+
+Loading required package: NLP
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-1&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-2&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-3&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-4&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-5&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-6&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-7&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-8&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-9&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-10&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+There were 30 warnings (use warnings() to see them)
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Writing to "Dashboard CSIS"
+Writing to sheet "Beras"
+Writing to "Dashboard CSIS"
+Writing to sheet "Ayam"
+Writing to "Dashboard CSIS"
+Writing to sheet "Sapi"
+Writing to "Dashboard CSIS"
+Writing to sheet "Telor"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang putih"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe rawit"
+Writing to "Dashboard CSIS"
+Writing to sheet "Minyak"
+Writing to "Dashboard CSIS"
+Writing to sheet "Gula"
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: 'gdata'
+
+The following objects are masked from 'package:dplyr':
+
+    combine, first, last
+
+The following object is masked from 'package:stats':
+
+    nobs
+
+The following object is masked from 'package:utils':
+
+    object.size
+
+The following object is masked from 'package:base':
+
+    startsWith
+
+Loading required package: NLP
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-1&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-2&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-3&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-4&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-5&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-6&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-7&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-8&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-9&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-10&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+There were 30 warnings (use warnings() to see them)
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "Dashboard CSIS"
+Writing to sheet "Beras"
+Writing to "Dashboard CSIS"
+Writing to sheet "Ayam"
+Writing to "Dashboard CSIS"
+Writing to sheet "Sapi"
+Writing to "Dashboard CSIS"
+Writing to sheet "Telor"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Bawang putih"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe merah"
+Writing to "Dashboard CSIS"
+Writing to sheet "Cabe rawit"
+Writing to "Dashboard CSIS"
+Writing to sheet "Minyak"
+Writing to "Dashboard CSIS"
+Writing to sheet "Gula"
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: 'gdata'
+
+The following objects are masked from 'package:dplyr':
+
+    combine, first, last
+
+The following object is masked from 'package:stats':
+
+    nobs
+
+The following object is masked from 'package:utils':
+
+    object.size
+
+The following object is masked from 'package:base':
+
+    startsWith
+
+Loading required package: NLP
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning message:
+package 'zoo' was built under R version 3.6.2 
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-1&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-2&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-3&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-4&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-5&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-6&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-7&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-8&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-9&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+trying URL 'https://hargapangan.id/tabel-harga/pasar-tradisional/komoditas/default/?province_id=0&commodity_id=cat-10&date=2020-07-30&format=xls&is_external=1'
+downloaded 80 KB
+
+There were 30 warnings (use warnings() to see them)
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "Dashboard CSIS"
+Writing to sheet "Beras"
+Writing to "Dashboard CSIS"
+Writing to sheet "Ayam"
+Writing to "Dashboard CSIS"
+Writing to sheet "Sapi"
+Error: Expected content type 'application/json' not 'text/html'.
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 408 (Request Timeout)!!1</title>
+  <style>...
+Execution halted

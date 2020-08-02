@@ -29,7 +29,7 @@ sheet_list = list()
 for(k in 1:length(link_pasar)){
   ihk = gsheet2tbl(link_pasar[k])
   ihk = data.frame(ihk)
-  url <- read_html(link_pihps[k])
+  url <- html(link_pihps[k])
   my_tables <- html_nodes(url,"table")[[1]]
   sembako <- html_table(my_tables)
   sembako = sembako[,-1]
@@ -161,10 +161,10 @@ for(k in 1:length(link_pasar)){
   name_sheet = nama_sheet[[k]]
   
   for(i in 1:length(sheet_list[[k]])){
-    Sys.sleep(10)
+    Sys.sleep(15)
     sheet_write(sheet_list[[k]][[i]],"https://docs.google.com/spreadsheets/d/15HrZEZGTjsH_xF8aKBTyPcqKeVpZcZB7eJ7s_-uK38I/edit", sheet = name_sheet[i] )
   }
-  Sys.sleep(10)
+  Sys.sleep(60)
 }
 
 inf_m_avg = data.frame()
@@ -194,7 +194,7 @@ colnames(inf_y_avg)[2] = "Average Inflation YoY"
 list_avg = list(inf_m_avg,inf_y_avg)
 nama_avg = c("Inf.MoM_Avg", "Inf.YoY_Avg")
 
-Sys.sleep(5)
+Sys.sleep(20)
 
 for(i in 1:length(list_avg)){
   sheet_write(list_avg[[i]],"https://docs.google.com/spreadsheets/d/15HrZEZGTjsH_xF8aKBTyPcqKeVpZcZB7eJ7s_-uK38I/edit", sheet = nama_avg[i])

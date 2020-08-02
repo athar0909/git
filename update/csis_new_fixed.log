@@ -1,0 +1,636 @@
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+Warning message:
+'html' is deprecated.
+Use 'xml2::read_html' instead.
+See help("Deprecated") 
+trying URL 'https://data.humdata.org/dataset/c3429f0e-651b-4788-bb2f-4adbf222c90e/resource/31ca909c-10d9-458a-8720-88b54b3e3627/download/movement-range-data-2020-07-26.zip'
+Content type 'application/zip' length 27299803 bytes (26.0 MB)
+==================================================
+downloaded 26.0 MB
+
+Warning message:
+In for (a in as.list(elist)) if (!missing(a) && mayCallBrowser(a,  :
+  closing unused connection 3 (/tmp/RtmpG0E4gO/file1de46547a60d/movement-range-2020-07-26.txt)
+Warning message:
+In .Internal(get0(x, envir, mode, inherits, ifnotfound)) :
+  closing unused connection 4 (/tmp/RtmpG0E4gO/file1de46547a60d/movement-range-2020-07-26.txt)
+Warning messages:
+1: Missing column names filled in: 'X36' [36], 'X45' [45], 'X47' [47], 'X91' [91] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38], 'Aceh' => 'Aceh_1' [48], 'Bali' => 'Bali_1' [49], 'Banten' => 'Banten_1' [50], 'Babel' => 'Babel_1' [51], 'Bengkulu' => 'Bengkulu_1' [52], 'DIY' => 'DIY_1' [53], 'Jakarta' => 'Jakarta_1' [54], 'Jambi' => 'Jambi_1' [55], 'Jabar' => 'Jabar_1' [56], 'Jateng' => 'Jateng_1' [57], 'Jatim' => 'Jatim_1' [58], 'Kalbar' => 'Kalbar_1' [59], 'Kaltim' => 'Kaltim_1' [60], 'Kalteng' => 'Kalteng_1' [61], 'Kalsel' => 'Kalsel_1' [62], 'Kaltara' => 'Kaltara_1' [63], 'Kep Riau' => 'Kep Riau_1' [64], 'NTB' => 'NTB_1' [65], 'Sumsel' => 'Sumsel_1' [66], 'Sumbar' => 'Sumbar_1' [67], 'Sulut' => 'Sulut_1' [68], 'Sumut' => 'Sumut_1' [69], 'Sultra' => 'Sultra_1' [70], 'Sulsel' => 'Sulsel_1' [71], 'Sulteng' => 'Sulteng_1' [72], 'Lampung' => 'Lampung_1' [73], 'Riau' => 'Riau_1' [74], 'Malut' => 'Malut_1' [75], 'Maluku' => 'Maluku_1' [76], 'Papbar' => 'Papbar_1' [77], 'Papua' => 'Papua_2' [78], 'Sulbar' => 'Sulbar_1' [79], 'NTT' => 'NTT_1' [80], 'Goron [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X36' [36], 'X45' [45], 'X47' [47], 'X91' [91] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38], 'Aceh' => 'Aceh_1' [48], 'Bali' => 'Bali_1' [49], 'Banten' => 'Banten_1' [50], 'Babel' => 'Babel_1' [51], 'Bengkulu' => 'Bengkulu_1' [52], 'DIY' => 'DIY_1' [53], 'Jakarta' => 'Jakarta_1' [54], 'Jambi' => 'Jambi_1' [55], 'Jabar' => 'Jabar_1' [56], 'Jateng' => 'Jateng_1' [57], 'Jatim' => 'Jatim_1' [58], 'Kalbar' => 'Kalbar_1' [59], 'Kaltim' => 'Kaltim_1' [60], 'Kalteng' => 'Kalteng_1' [61], 'Kalsel' => 'Kalsel_1' [62], 'Kaltara' => 'Kaltara_1' [63], 'Kep Riau' => 'Kep Riau_1' [64], 'NTB' => 'NTB_1' [65], 'Sumsel' => 'Sumsel_1' [66], 'Sumbar' => 'Sumbar_1' [67], 'Sulut' => 'Sulut_1' [68], 'Sumut' => 'Sumut_1' [69], 'Sultra' => 'Sultra_1' [70], 'Sulsel' => 'Sulsel_1' [71], 'Sulteng' => 'Sulteng_1' [72], 'Lampung' => 'Lampung_1' [73], 'Riau' => 'Riau_1' [74], 'Malut' => 'Malut_1' [75], 'Maluku' => 'Maluku_1' [76], 'Papbar' => 'Papbar_1' [77], 'Papua' => 'Papua_2' [78], 'Sulbar' => 'Sulbar_1' [79], 'NTT' => 'NTT_1' [80], 'Goron [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X36' [36] 
+2: Duplicated column names deduplicated: 'Aceh' => 'Aceh_1' [37], 'Bali' => 'Bali_1' [38], 'Banten' => 'Banten_1' [39], 'Babel' => 'Babel_1' [40], 'Bengkulu' => 'Bengkulu_1' [41], 'DIY' => 'DIY_1' [42], 'Jakarta' => 'Jakarta_1' [43], 'Jambi' => 'Jambi_1' [44], 'Jabar' => 'Jabar_1' [45], 'Jateng' => 'Jateng_1' [46], 'Jatim' => 'Jatim_1' [47], 'Kalbar' => 'Kalbar_1' [48], 'Kaltim' => 'Kaltim_1' [49], 'Kalteng' => 'Kalteng_1' [50], 'Kalsel' => 'Kalsel_1' [51], 'Kaltara' => 'Kaltara_1' [52], 'Kep Riau' => 'Kep Riau_1' [53], 'NTB' => 'NTB_1' [54], 'Sumsel' => 'Sumsel_1' [55], 'Sumbar' => 'Sumbar_1' [56], 'Sulut' => 'Sulut_1' [57], 'Sumut' => 'Sumut_1' [58], 'Sultra' => 'Sultra_1' [59], 'Sulsel' => 'Sulsel_1' [60], 'Sulteng' => 'Sulteng_1' [61], 'Lampung' => 'Lampung_1' [62], 'Riau' => 'Riau_1' [63], 'Malut' => 'Malut_1' [64], 'Maluku' => 'Maluku_1' [65], 'Papbar' => 'Papbar_1' [66], 'Papua' => 'Papua_1' [67], 'Sulbar' => 'Sulbar_1' [68], 'NTT' => 'NTT_1' [69], 'Gorontalo' => 'Gorontalo_1' [70] [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X47' [47] 
+2: Duplicated column names deduplicated: 'growth' => 'growth_1' [3], 'growth' => 'growth_2' [4], 'growth' => 'growth_3' [5], 'growth' => 'growth_4' [6], 'growth' => 'growth_5' [7], 'growth' => 'growth_6' [8], 'growth' => 'growth_7' [9], 'growth' => 'growth_8' [10], 'growth' => 'growth_9' [11], 'growth' => 'growth_10' [12], 'growth' => 'growth_11' [13], 'growth' => 'growth_12' [14], 'growth' => 'growth_13' [15], 'growth' => 'growth_14' [16], 'growth' => 'growth_15' [17], 'growth' => 'growth_16' [18], 'growth' => 'growth_17' [19], 'growth' => 'growth_18' [20], 'growth' => 'growth_19' [21], 'growth' => 'growth_20' [22], 'growth' => 'growth_21' [23], 'growth' => 'growth_22' [24], 'growth' => 'growth_23' [25], 'growth' => 'growth_24' [26], 'growth' => 'growth_25' [27], 'growth' => 'growth_26' [28], 'growth' => 'growth_27' [29], 'growth' => 'growth_28' [30], 'growth' => 'growth_29' [31], 'growth' => 'growth_30' [32], 'growth' => 'growth_31' [33], 'growth' => 'growth_32' [34], 'growth' => 'growt [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X1' [1], 'X36' [36], 'X45' [45] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38] 
+Warning messages:
+1: In log1p(idx_dt[1:(nrow(idx_dt) - 1), i]/idx_dt[nrow(idx_dt), i]) :
+  NaNs produced
+2: In log1p(idx_dt[1:(nrow(idx_dt) - 1), i]/idx_dt[nrow(idx_dt), i]) :
+  NaNs produced
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "Dashboard CSIS"
+Writing to sheet "df_update_new"
+Writing to "Dashboard CSIS"
+Writing to sheet "last cov"
+Writing to "Dashboard CSIS"
+Writing to sheet "last mob"
+Writing to "Dashboard CSIS"
+Writing to sheet "Agregat Mobility"
+Writing to "Dashboard CSIS"
+Writing to sheet "Agregat COVID"
+Writing to "Dashboard CSIS"
+Writing to sheet "raw cov"
+Writing to "Dashboard CSIS"
+Writing to sheet "raw mob"
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+Warning message:
+'html' is deprecated.
+Use 'xml2::read_html' instead.
+See help("Deprecated") 
+trying URL 'https://data.humdata.org/dataset/c3429f0e-651b-4788-bb2f-4adbf222c90e/resource/31ca909c-10d9-458a-8720-88b54b3e3627/download/movement-range-data-2020-07-27.zip'
+Content type 'application/zip' length 27458795 bytes (26.2 MB)
+==================================================
+downloaded 26.2 MB
+
+Warning message:
+In for (a in as.list(elist)) if (!missing(a) && mayCallBrowser(a,  :
+  closing unused connection 3 (/tmp/RtmpT1ttyp/file3577696a1ad3/movement-range-2020-07-27.txt)
+Warning message:
+In .Internal(get0(x, envir, mode, inherits, ifnotfound)) :
+  closing unused connection 4 (/tmp/RtmpT1ttyp/file3577696a1ad3/movement-range-2020-07-27.txt)
+Warning messages:
+1: Missing column names filled in: 'X36' [36], 'X45' [45], 'X47' [47], 'X91' [91] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38], 'Aceh' => 'Aceh_1' [48], 'Bali' => 'Bali_1' [49], 'Banten' => 'Banten_1' [50], 'Babel' => 'Babel_1' [51], 'Bengkulu' => 'Bengkulu_1' [52], 'DIY' => 'DIY_1' [53], 'Jakarta' => 'Jakarta_1' [54], 'Jambi' => 'Jambi_1' [55], 'Jabar' => 'Jabar_1' [56], 'Jateng' => 'Jateng_1' [57], 'Jatim' => 'Jatim_1' [58], 'Kalbar' => 'Kalbar_1' [59], 'Kaltim' => 'Kaltim_1' [60], 'Kalteng' => 'Kalteng_1' [61], 'Kalsel' => 'Kalsel_1' [62], 'Kaltara' => 'Kaltara_1' [63], 'Kep Riau' => 'Kep Riau_1' [64], 'NTB' => 'NTB_1' [65], 'Sumsel' => 'Sumsel_1' [66], 'Sumbar' => 'Sumbar_1' [67], 'Sulut' => 'Sulut_1' [68], 'Sumut' => 'Sumut_1' [69], 'Sultra' => 'Sultra_1' [70], 'Sulsel' => 'Sulsel_1' [71], 'Sulteng' => 'Sulteng_1' [72], 'Lampung' => 'Lampung_1' [73], 'Riau' => 'Riau_1' [74], 'Malut' => 'Malut_1' [75], 'Maluku' => 'Maluku_1' [76], 'Papbar' => 'Papbar_1' [77], 'Papua' => 'Papua_2' [78], 'Sulbar' => 'Sulbar_1' [79], 'NTT' => 'NTT_1' [80], 'Goron [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X36' [36], 'X45' [45], 'X47' [47], 'X91' [91] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38], 'Aceh' => 'Aceh_1' [48], 'Bali' => 'Bali_1' [49], 'Banten' => 'Banten_1' [50], 'Babel' => 'Babel_1' [51], 'Bengkulu' => 'Bengkulu_1' [52], 'DIY' => 'DIY_1' [53], 'Jakarta' => 'Jakarta_1' [54], 'Jambi' => 'Jambi_1' [55], 'Jabar' => 'Jabar_1' [56], 'Jateng' => 'Jateng_1' [57], 'Jatim' => 'Jatim_1' [58], 'Kalbar' => 'Kalbar_1' [59], 'Kaltim' => 'Kaltim_1' [60], 'Kalteng' => 'Kalteng_1' [61], 'Kalsel' => 'Kalsel_1' [62], 'Kaltara' => 'Kaltara_1' [63], 'Kep Riau' => 'Kep Riau_1' [64], 'NTB' => 'NTB_1' [65], 'Sumsel' => 'Sumsel_1' [66], 'Sumbar' => 'Sumbar_1' [67], 'Sulut' => 'Sulut_1' [68], 'Sumut' => 'Sumut_1' [69], 'Sultra' => 'Sultra_1' [70], 'Sulsel' => 'Sulsel_1' [71], 'Sulteng' => 'Sulteng_1' [72], 'Lampung' => 'Lampung_1' [73], 'Riau' => 'Riau_1' [74], 'Malut' => 'Malut_1' [75], 'Maluku' => 'Maluku_1' [76], 'Papbar' => 'Papbar_1' [77], 'Papua' => 'Papua_2' [78], 'Sulbar' => 'Sulbar_1' [79], 'NTT' => 'NTT_1' [80], 'Goron [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X36' [36] 
+2: Duplicated column names deduplicated: 'Aceh' => 'Aceh_1' [37], 'Bali' => 'Bali_1' [38], 'Banten' => 'Banten_1' [39], 'Babel' => 'Babel_1' [40], 'Bengkulu' => 'Bengkulu_1' [41], 'DIY' => 'DIY_1' [42], 'Jakarta' => 'Jakarta_1' [43], 'Jambi' => 'Jambi_1' [44], 'Jabar' => 'Jabar_1' [45], 'Jateng' => 'Jateng_1' [46], 'Jatim' => 'Jatim_1' [47], 'Kalbar' => 'Kalbar_1' [48], 'Kaltim' => 'Kaltim_1' [49], 'Kalteng' => 'Kalteng_1' [50], 'Kalsel' => 'Kalsel_1' [51], 'Kaltara' => 'Kaltara_1' [52], 'Kep Riau' => 'Kep Riau_1' [53], 'NTB' => 'NTB_1' [54], 'Sumsel' => 'Sumsel_1' [55], 'Sumbar' => 'Sumbar_1' [56], 'Sulut' => 'Sulut_1' [57], 'Sumut' => 'Sumut_1' [58], 'Sultra' => 'Sultra_1' [59], 'Sulsel' => 'Sulsel_1' [60], 'Sulteng' => 'Sulteng_1' [61], 'Lampung' => 'Lampung_1' [62], 'Riau' => 'Riau_1' [63], 'Malut' => 'Malut_1' [64], 'Maluku' => 'Maluku_1' [65], 'Papbar' => 'Papbar_1' [66], 'Papua' => 'Papua_1' [67], 'Sulbar' => 'Sulbar_1' [68], 'NTT' => 'NTT_1' [69], 'Gorontalo' => 'Gorontalo_1' [70] [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X47' [47] 
+2: Duplicated column names deduplicated: 'growth' => 'growth_1' [3], 'growth' => 'growth_2' [4], 'growth' => 'growth_3' [5], 'growth' => 'growth_4' [6], 'growth' => 'growth_5' [7], 'growth' => 'growth_6' [8], 'growth' => 'growth_7' [9], 'growth' => 'growth_8' [10], 'growth' => 'growth_9' [11], 'growth' => 'growth_10' [12], 'growth' => 'growth_11' [13], 'growth' => 'growth_12' [14], 'growth' => 'growth_13' [15], 'growth' => 'growth_14' [16], 'growth' => 'growth_15' [17], 'growth' => 'growth_16' [18], 'growth' => 'growth_17' [19], 'growth' => 'growth_18' [20], 'growth' => 'growth_19' [21], 'growth' => 'growth_20' [22], 'growth' => 'growth_21' [23], 'growth' => 'growth_22' [24], 'growth' => 'growth_23' [25], 'growth' => 'growth_24' [26], 'growth' => 'growth_25' [27], 'growth' => 'growth_26' [28], 'growth' => 'growth_27' [29], 'growth' => 'growth_28' [30], 'growth' => 'growth_29' [31], 'growth' => 'growth_30' [32], 'growth' => 'growth_31' [33], 'growth' => 'growth_32' [34], 'growth' => 'growt [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X1' [1], 'X36' [36], 'X45' [45] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38] 
+Warning messages:
+1: In log1p(idx_dt[1:(nrow(idx_dt) - 1), i]/idx_dt[nrow(idx_dt), i]) :
+  NaNs produced
+2: In log1p(idx_dt[1:(nrow(idx_dt) - 1), i]/idx_dt[nrow(idx_dt), i]) :
+  NaNs produced
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "Dashboard CSIS"
+Writing to sheet "df_update_new"
+Writing to "Dashboard CSIS"
+Writing to sheet "last cov"
+Writing to "Dashboard CSIS"
+Writing to sheet "last mob"
+Writing to "Dashboard CSIS"
+Writing to sheet "Agregat Mobility"
+Writing to "Dashboard CSIS"
+Writing to sheet "Agregat COVID"
+Writing to "Dashboard CSIS"
+Writing to sheet "raw cov"
+Writing to "Dashboard CSIS"
+Writing to sheet "raw mob"
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+Warning message:
+'html' is deprecated.
+Use 'xml2::read_html' instead.
+See help("Deprecated") 
+trying URL 'https://data.humdata.org/dataset/c3429f0e-651b-4788-bb2f-4adbf222c90e/resource/31ca909c-10d9-458a-8720-88b54b3e3627/download/movement-range-data-2020-07-28.zip'
+Content type 'application/zip' length 27617288 bytes (26.3 MB)
+==================================================
+downloaded 26.3 MB
+
+Warning message:
+In for (a in as.list(elist)) if (!missing(a) && mayCallBrowser(a,  :
+  closing unused connection 3 (/tmp/Rtmpq3Do3O/file4c322c71bb00/movement-range-2020-07-28.txt)
+Warning message:
+In .Internal(get0(x, envir, mode, inherits, ifnotfound)) :
+  closing unused connection 4 (/tmp/Rtmpq3Do3O/file4c322c71bb00/movement-range-2020-07-28.txt)
+Warning messages:
+1: Missing column names filled in: 'X36' [36], 'X45' [45], 'X47' [47], 'X91' [91] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38], 'Aceh' => 'Aceh_1' [48], 'Bali' => 'Bali_1' [49], 'Banten' => 'Banten_1' [50], 'Babel' => 'Babel_1' [51], 'Bengkulu' => 'Bengkulu_1' [52], 'DIY' => 'DIY_1' [53], 'Jakarta' => 'Jakarta_1' [54], 'Jambi' => 'Jambi_1' [55], 'Jabar' => 'Jabar_1' [56], 'Jateng' => 'Jateng_1' [57], 'Jatim' => 'Jatim_1' [58], 'Kalbar' => 'Kalbar_1' [59], 'Kaltim' => 'Kaltim_1' [60], 'Kalteng' => 'Kalteng_1' [61], 'Kalsel' => 'Kalsel_1' [62], 'Kaltara' => 'Kaltara_1' [63], 'Kep Riau' => 'Kep Riau_1' [64], 'NTB' => 'NTB_1' [65], 'Sumsel' => 'Sumsel_1' [66], 'Sumbar' => 'Sumbar_1' [67], 'Sulut' => 'Sulut_1' [68], 'Sumut' => 'Sumut_1' [69], 'Sultra' => 'Sultra_1' [70], 'Sulsel' => 'Sulsel_1' [71], 'Sulteng' => 'Sulteng_1' [72], 'Lampung' => 'Lampung_1' [73], 'Riau' => 'Riau_1' [74], 'Malut' => 'Malut_1' [75], 'Maluku' => 'Maluku_1' [76], 'Papbar' => 'Papbar_1' [77], 'Papua' => 'Papua_2' [78], 'Sulbar' => 'Sulbar_1' [79], 'NTT' => 'NTT_1' [80], 'Goron [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X36' [36], 'X45' [45], 'X47' [47], 'X91' [91] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38], 'Aceh' => 'Aceh_1' [48], 'Bali' => 'Bali_1' [49], 'Banten' => 'Banten_1' [50], 'Babel' => 'Babel_1' [51], 'Bengkulu' => 'Bengkulu_1' [52], 'DIY' => 'DIY_1' [53], 'Jakarta' => 'Jakarta_1' [54], 'Jambi' => 'Jambi_1' [55], 'Jabar' => 'Jabar_1' [56], 'Jateng' => 'Jateng_1' [57], 'Jatim' => 'Jatim_1' [58], 'Kalbar' => 'Kalbar_1' [59], 'Kaltim' => 'Kaltim_1' [60], 'Kalteng' => 'Kalteng_1' [61], 'Kalsel' => 'Kalsel_1' [62], 'Kaltara' => 'Kaltara_1' [63], 'Kep Riau' => 'Kep Riau_1' [64], 'NTB' => 'NTB_1' [65], 'Sumsel' => 'Sumsel_1' [66], 'Sumbar' => 'Sumbar_1' [67], 'Sulut' => 'Sulut_1' [68], 'Sumut' => 'Sumut_1' [69], 'Sultra' => 'Sultra_1' [70], 'Sulsel' => 'Sulsel_1' [71], 'Sulteng' => 'Sulteng_1' [72], 'Lampung' => 'Lampung_1' [73], 'Riau' => 'Riau_1' [74], 'Malut' => 'Malut_1' [75], 'Maluku' => 'Maluku_1' [76], 'Papbar' => 'Papbar_1' [77], 'Papua' => 'Papua_2' [78], 'Sulbar' => 'Sulbar_1' [79], 'NTT' => 'NTT_1' [80], 'Goron [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X36' [36] 
+2: Duplicated column names deduplicated: 'Aceh' => 'Aceh_1' [37], 'Bali' => 'Bali_1' [38], 'Banten' => 'Banten_1' [39], 'Babel' => 'Babel_1' [40], 'Bengkulu' => 'Bengkulu_1' [41], 'DIY' => 'DIY_1' [42], 'Jakarta' => 'Jakarta_1' [43], 'Jambi' => 'Jambi_1' [44], 'Jabar' => 'Jabar_1' [45], 'Jateng' => 'Jateng_1' [46], 'Jatim' => 'Jatim_1' [47], 'Kalbar' => 'Kalbar_1' [48], 'Kaltim' => 'Kaltim_1' [49], 'Kalteng' => 'Kalteng_1' [50], 'Kalsel' => 'Kalsel_1' [51], 'Kaltara' => 'Kaltara_1' [52], 'Kep Riau' => 'Kep Riau_1' [53], 'NTB' => 'NTB_1' [54], 'Sumsel' => 'Sumsel_1' [55], 'Sumbar' => 'Sumbar_1' [56], 'Sulut' => 'Sulut_1' [57], 'Sumut' => 'Sumut_1' [58], 'Sultra' => 'Sultra_1' [59], 'Sulsel' => 'Sulsel_1' [60], 'Sulteng' => 'Sulteng_1' [61], 'Lampung' => 'Lampung_1' [62], 'Riau' => 'Riau_1' [63], 'Malut' => 'Malut_1' [64], 'Maluku' => 'Maluku_1' [65], 'Papbar' => 'Papbar_1' [66], 'Papua' => 'Papua_1' [67], 'Sulbar' => 'Sulbar_1' [68], 'NTT' => 'NTT_1' [69], 'Gorontalo' => 'Gorontalo_1' [70] [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X47' [47] 
+2: Duplicated column names deduplicated: 'growth' => 'growth_1' [3], 'growth' => 'growth_2' [4], 'growth' => 'growth_3' [5], 'growth' => 'growth_4' [6], 'growth' => 'growth_5' [7], 'growth' => 'growth_6' [8], 'growth' => 'growth_7' [9], 'growth' => 'growth_8' [10], 'growth' => 'growth_9' [11], 'growth' => 'growth_10' [12], 'growth' => 'growth_11' [13], 'growth' => 'growth_12' [14], 'growth' => 'growth_13' [15], 'growth' => 'growth_14' [16], 'growth' => 'growth_15' [17], 'growth' => 'growth_16' [18], 'growth' => 'growth_17' [19], 'growth' => 'growth_18' [20], 'growth' => 'growth_19' [21], 'growth' => 'growth_20' [22], 'growth' => 'growth_21' [23], 'growth' => 'growth_22' [24], 'growth' => 'growth_23' [25], 'growth' => 'growth_24' [26], 'growth' => 'growth_25' [27], 'growth' => 'growth_26' [28], 'growth' => 'growth_27' [29], 'growth' => 'growth_28' [30], 'growth' => 'growth_29' [31], 'growth' => 'growth_30' [32], 'growth' => 'growth_31' [33], 'growth' => 'growth_32' [34], 'growth' => 'growt [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X1' [1], 'X36' [36], 'X45' [45] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38] 
+Warning messages:
+1: In log1p(idx_dt[1:(nrow(idx_dt) - 1), i]/idx_dt[nrow(idx_dt), i]) :
+  NaNs produced
+2: In log1p(idx_dt[1:(nrow(idx_dt) - 1), i]/idx_dt[nrow(idx_dt), i]) :
+  NaNs produced
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "Dashboard CSIS"
+Writing to sheet "df_update_new"
+Writing to "Dashboard CSIS"
+Writing to sheet "last cov"
+Writing to "Dashboard CSIS"
+Writing to sheet "last mob"
+Writing to "Dashboard CSIS"
+Writing to sheet "Agregat Mobility"
+Writing to "Dashboard CSIS"
+Writing to sheet "Agregat COVID"
+Writing to "Dashboard CSIS"
+Writing to sheet "raw cov"
+Writing to "Dashboard CSIS"
+Writing to sheet "raw mob"
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+Warning message:
+'html' is deprecated.
+Use 'xml2::read_html' instead.
+See help("Deprecated") 
+trying URL 'https://data.humdata.org/dataset/c3429f0e-651b-4788-bb2f-4adbf222c90e/resource/31ca909c-10d9-458a-8720-88b54b3e3627/download/movement-range-data-2020-07-29.zip'
+Content type 'application/zip' length 27772137 bytes (26.5 MB)
+==================================================
+downloaded 26.5 MB
+
+Warning message:
+In for (a in as.list(elist)) if (!missing(a) && mayCallBrowser(a,  :
+  closing unused connection 3 (/tmp/RtmprCSdGY/file56bd5d34d4b2/movement-range-2020-07-29.txt)
+Warning message:
+In .Internal(get0(x, envir, mode, inherits, ifnotfound)) :
+  closing unused connection 4 (/tmp/RtmprCSdGY/file56bd5d34d4b2/movement-range-2020-07-29.txt)
+Warning messages:
+1: Missing column names filled in: 'X36' [36], 'X45' [45], 'X47' [47], 'X91' [91] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38], 'Aceh' => 'Aceh_1' [48], 'Bali' => 'Bali_1' [49], 'Banten' => 'Banten_1' [50], 'Babel' => 'Babel_1' [51], 'Bengkulu' => 'Bengkulu_1' [52], 'DIY' => 'DIY_1' [53], 'Jakarta' => 'Jakarta_1' [54], 'Jambi' => 'Jambi_1' [55], 'Jabar' => 'Jabar_1' [56], 'Jateng' => 'Jateng_1' [57], 'Jatim' => 'Jatim_1' [58], 'Kalbar' => 'Kalbar_1' [59], 'Kaltim' => 'Kaltim_1' [60], 'Kalteng' => 'Kalteng_1' [61], 'Kalsel' => 'Kalsel_1' [62], 'Kaltara' => 'Kaltara_1' [63], 'Kep Riau' => 'Kep Riau_1' [64], 'NTB' => 'NTB_1' [65], 'Sumsel' => 'Sumsel_1' [66], 'Sumbar' => 'Sumbar_1' [67], 'Sulut' => 'Sulut_1' [68], 'Sumut' => 'Sumut_1' [69], 'Sultra' => 'Sultra_1' [70], 'Sulsel' => 'Sulsel_1' [71], 'Sulteng' => 'Sulteng_1' [72], 'Lampung' => 'Lampung_1' [73], 'Riau' => 'Riau_1' [74], 'Malut' => 'Malut_1' [75], 'Maluku' => 'Maluku_1' [76], 'Papbar' => 'Papbar_1' [77], 'Papua' => 'Papua_2' [78], 'Sulbar' => 'Sulbar_1' [79], 'NTT' => 'NTT_1' [80], 'Goron [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X36' [36], 'X45' [45], 'X47' [47], 'X91' [91] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38], 'Aceh' => 'Aceh_1' [48], 'Bali' => 'Bali_1' [49], 'Banten' => 'Banten_1' [50], 'Babel' => 'Babel_1' [51], 'Bengkulu' => 'Bengkulu_1' [52], 'DIY' => 'DIY_1' [53], 'Jakarta' => 'Jakarta_1' [54], 'Jambi' => 'Jambi_1' [55], 'Jabar' => 'Jabar_1' [56], 'Jateng' => 'Jateng_1' [57], 'Jatim' => 'Jatim_1' [58], 'Kalbar' => 'Kalbar_1' [59], 'Kaltim' => 'Kaltim_1' [60], 'Kalteng' => 'Kalteng_1' [61], 'Kalsel' => 'Kalsel_1' [62], 'Kaltara' => 'Kaltara_1' [63], 'Kep Riau' => 'Kep Riau_1' [64], 'NTB' => 'NTB_1' [65], 'Sumsel' => 'Sumsel_1' [66], 'Sumbar' => 'Sumbar_1' [67], 'Sulut' => 'Sulut_1' [68], 'Sumut' => 'Sumut_1' [69], 'Sultra' => 'Sultra_1' [70], 'Sulsel' => 'Sulsel_1' [71], 'Sulteng' => 'Sulteng_1' [72], 'Lampung' => 'Lampung_1' [73], 'Riau' => 'Riau_1' [74], 'Malut' => 'Malut_1' [75], 'Maluku' => 'Maluku_1' [76], 'Papbar' => 'Papbar_1' [77], 'Papua' => 'Papua_2' [78], 'Sulbar' => 'Sulbar_1' [79], 'NTT' => 'NTT_1' [80], 'Goron [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X36' [36] 
+2: Duplicated column names deduplicated: 'Aceh' => 'Aceh_1' [37], 'Bali' => 'Bali_1' [38], 'Banten' => 'Banten_1' [39], 'Babel' => 'Babel_1' [40], 'Bengkulu' => 'Bengkulu_1' [41], 'DIY' => 'DIY_1' [42], 'Jakarta' => 'Jakarta_1' [43], 'Jambi' => 'Jambi_1' [44], 'Jabar' => 'Jabar_1' [45], 'Jateng' => 'Jateng_1' [46], 'Jatim' => 'Jatim_1' [47], 'Kalbar' => 'Kalbar_1' [48], 'Kaltim' => 'Kaltim_1' [49], 'Kalteng' => 'Kalteng_1' [50], 'Kalsel' => 'Kalsel_1' [51], 'Kaltara' => 'Kaltara_1' [52], 'Kep Riau' => 'Kep Riau_1' [53], 'NTB' => 'NTB_1' [54], 'Sumsel' => 'Sumsel_1' [55], 'Sumbar' => 'Sumbar_1' [56], 'Sulut' => 'Sulut_1' [57], 'Sumut' => 'Sumut_1' [58], 'Sultra' => 'Sultra_1' [59], 'Sulsel' => 'Sulsel_1' [60], 'Sulteng' => 'Sulteng_1' [61], 'Lampung' => 'Lampung_1' [62], 'Riau' => 'Riau_1' [63], 'Malut' => 'Malut_1' [64], 'Maluku' => 'Maluku_1' [65], 'Papbar' => 'Papbar_1' [66], 'Papua' => 'Papua_1' [67], 'Sulbar' => 'Sulbar_1' [68], 'NTT' => 'NTT_1' [69], 'Gorontalo' => 'Gorontalo_1' [70] [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X47' [47] 
+2: Duplicated column names deduplicated: 'growth' => 'growth_1' [3], 'growth' => 'growth_2' [4], 'growth' => 'growth_3' [5], 'growth' => 'growth_4' [6], 'growth' => 'growth_5' [7], 'growth' => 'growth_6' [8], 'growth' => 'growth_7' [9], 'growth' => 'growth_8' [10], 'growth' => 'growth_9' [11], 'growth' => 'growth_10' [12], 'growth' => 'growth_11' [13], 'growth' => 'growth_12' [14], 'growth' => 'growth_13' [15], 'growth' => 'growth_14' [16], 'growth' => 'growth_15' [17], 'growth' => 'growth_16' [18], 'growth' => 'growth_17' [19], 'growth' => 'growth_18' [20], 'growth' => 'growth_19' [21], 'growth' => 'growth_20' [22], 'growth' => 'growth_21' [23], 'growth' => 'growth_22' [24], 'growth' => 'growth_23' [25], 'growth' => 'growth_24' [26], 'growth' => 'growth_25' [27], 'growth' => 'growth_26' [28], 'growth' => 'growth_27' [29], 'growth' => 'growth_28' [30], 'growth' => 'growth_29' [31], 'growth' => 'growth_30' [32], 'growth' => 'growth_31' [33], 'growth' => 'growth_32' [34], 'growth' => 'growt [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X1' [1], 'X36' [36], 'X45' [45] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38] 
+Warning messages:
+1: In log1p(idx_dt[1:(nrow(idx_dt) - 1), i]/idx_dt[nrow(idx_dt), i]) :
+  NaNs produced
+2: In log1p(idx_dt[1:(nrow(idx_dt) - 1), i]/idx_dt[nrow(idx_dt), i]) :
+  NaNs produced
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "Dashboard CSIS"
+Writing to sheet "df_update_new"
+Writing to "Dashboard CSIS"
+Writing to sheet "last cov"
+Writing to "Dashboard CSIS"
+Writing to sheet "last mob"
+Writing to "Dashboard CSIS"
+Writing to sheet "Agregat Mobility"
+Writing to "Dashboard CSIS"
+Writing to sheet "Agregat COVID"
+Writing to "Dashboard CSIS"
+Writing to sheet "raw cov"
+Error: Expected content type 'application/json' not 'text/html'.
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 408 (Request Timeout)!!1</title>
+  <style>...
+Execution halted
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+Warning message:
+'html' is deprecated.
+Use 'xml2::read_html' instead.
+See help("Deprecated") 
+trying URL 'https://data.humdata.org/dataset/c3429f0e-651b-4788-bb2f-4adbf222c90e/resource/31ca909c-10d9-458a-8720-88b54b3e3627/download/movement-range-data-2020-07-29.zip'
+Content type 'application/zip' length 27772137 bytes (26.5 MB)
+==================================================
+downloaded 26.5 MB
+
+Warning message:
+In for (a in as.list(elist)) if (!missing(a) && mayCallBrowser(a,  :
+  closing unused connection 3 (/tmp/Rtmpl2osm7/file5a85466c8a39/movement-range-2020-07-29.txt)
+Warning message:
+In .Internal(get0(x, envir, mode, inherits, ifnotfound)) :
+  closing unused connection 4 (/tmp/Rtmpl2osm7/file5a85466c8a39/movement-range-2020-07-29.txt)
+Warning messages:
+1: Missing column names filled in: 'X36' [36], 'X45' [45], 'X47' [47], 'X91' [91] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38], 'Aceh' => 'Aceh_1' [48], 'Bali' => 'Bali_1' [49], 'Banten' => 'Banten_1' [50], 'Babel' => 'Babel_1' [51], 'Bengkulu' => 'Bengkulu_1' [52], 'DIY' => 'DIY_1' [53], 'Jakarta' => 'Jakarta_1' [54], 'Jambi' => 'Jambi_1' [55], 'Jabar' => 'Jabar_1' [56], 'Jateng' => 'Jateng_1' [57], 'Jatim' => 'Jatim_1' [58], 'Kalbar' => 'Kalbar_1' [59], 'Kaltim' => 'Kaltim_1' [60], 'Kalteng' => 'Kalteng_1' [61], 'Kalsel' => 'Kalsel_1' [62], 'Kaltara' => 'Kaltara_1' [63], 'Kep Riau' => 'Kep Riau_1' [64], 'NTB' => 'NTB_1' [65], 'Sumsel' => 'Sumsel_1' [66], 'Sumbar' => 'Sumbar_1' [67], 'Sulut' => 'Sulut_1' [68], 'Sumut' => 'Sumut_1' [69], 'Sultra' => 'Sultra_1' [70], 'Sulsel' => 'Sulsel_1' [71], 'Sulteng' => 'Sulteng_1' [72], 'Lampung' => 'Lampung_1' [73], 'Riau' => 'Riau_1' [74], 'Malut' => 'Malut_1' [75], 'Maluku' => 'Maluku_1' [76], 'Papbar' => 'Papbar_1' [77], 'Papua' => 'Papua_2' [78], 'Sulbar' => 'Sulbar_1' [79], 'NTT' => 'NTT_1' [80], 'Goron [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X36' [36], 'X45' [45], 'X47' [47], 'X91' [91] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38], 'Aceh' => 'Aceh_1' [48], 'Bali' => 'Bali_1' [49], 'Banten' => 'Banten_1' [50], 'Babel' => 'Babel_1' [51], 'Bengkulu' => 'Bengkulu_1' [52], 'DIY' => 'DIY_1' [53], 'Jakarta' => 'Jakarta_1' [54], 'Jambi' => 'Jambi_1' [55], 'Jabar' => 'Jabar_1' [56], 'Jateng' => 'Jateng_1' [57], 'Jatim' => 'Jatim_1' [58], 'Kalbar' => 'Kalbar_1' [59], 'Kaltim' => 'Kaltim_1' [60], 'Kalteng' => 'Kalteng_1' [61], 'Kalsel' => 'Kalsel_1' [62], 'Kaltara' => 'Kaltara_1' [63], 'Kep Riau' => 'Kep Riau_1' [64], 'NTB' => 'NTB_1' [65], 'Sumsel' => 'Sumsel_1' [66], 'Sumbar' => 'Sumbar_1' [67], 'Sulut' => 'Sulut_1' [68], 'Sumut' => 'Sumut_1' [69], 'Sultra' => 'Sultra_1' [70], 'Sulsel' => 'Sulsel_1' [71], 'Sulteng' => 'Sulteng_1' [72], 'Lampung' => 'Lampung_1' [73], 'Riau' => 'Riau_1' [74], 'Malut' => 'Malut_1' [75], 'Maluku' => 'Maluku_1' [76], 'Papbar' => 'Papbar_1' [77], 'Papua' => 'Papua_2' [78], 'Sulbar' => 'Sulbar_1' [79], 'NTT' => 'NTT_1' [80], 'Goron [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X36' [36] 
+2: Duplicated column names deduplicated: 'Aceh' => 'Aceh_1' [37], 'Bali' => 'Bali_1' [38], 'Banten' => 'Banten_1' [39], 'Babel' => 'Babel_1' [40], 'Bengkulu' => 'Bengkulu_1' [41], 'DIY' => 'DIY_1' [42], 'Jakarta' => 'Jakarta_1' [43], 'Jambi' => 'Jambi_1' [44], 'Jabar' => 'Jabar_1' [45], 'Jateng' => 'Jateng_1' [46], 'Jatim' => 'Jatim_1' [47], 'Kalbar' => 'Kalbar_1' [48], 'Kaltim' => 'Kaltim_1' [49], 'Kalteng' => 'Kalteng_1' [50], 'Kalsel' => 'Kalsel_1' [51], 'Kaltara' => 'Kaltara_1' [52], 'Kep Riau' => 'Kep Riau_1' [53], 'NTB' => 'NTB_1' [54], 'Sumsel' => 'Sumsel_1' [55], 'Sumbar' => 'Sumbar_1' [56], 'Sulut' => 'Sulut_1' [57], 'Sumut' => 'Sumut_1' [58], 'Sultra' => 'Sultra_1' [59], 'Sulsel' => 'Sulsel_1' [60], 'Sulteng' => 'Sulteng_1' [61], 'Lampung' => 'Lampung_1' [62], 'Riau' => 'Riau_1' [63], 'Malut' => 'Malut_1' [64], 'Maluku' => 'Maluku_1' [65], 'Papbar' => 'Papbar_1' [66], 'Papua' => 'Papua_1' [67], 'Sulbar' => 'Sulbar_1' [68], 'NTT' => 'NTT_1' [69], 'Gorontalo' => 'Gorontalo_1' [70] [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X47' [47] 
+2: Duplicated column names deduplicated: 'growth' => 'growth_1' [3], 'growth' => 'growth_2' [4], 'growth' => 'growth_3' [5], 'growth' => 'growth_4' [6], 'growth' => 'growth_5' [7], 'growth' => 'growth_6' [8], 'growth' => 'growth_7' [9], 'growth' => 'growth_8' [10], 'growth' => 'growth_9' [11], 'growth' => 'growth_10' [12], 'growth' => 'growth_11' [13], 'growth' => 'growth_12' [14], 'growth' => 'growth_13' [15], 'growth' => 'growth_14' [16], 'growth' => 'growth_15' [17], 'growth' => 'growth_16' [18], 'growth' => 'growth_17' [19], 'growth' => 'growth_18' [20], 'growth' => 'growth_19' [21], 'growth' => 'growth_20' [22], 'growth' => 'growth_21' [23], 'growth' => 'growth_22' [24], 'growth' => 'growth_23' [25], 'growth' => 'growth_24' [26], 'growth' => 'growth_25' [27], 'growth' => 'growth_26' [28], 'growth' => 'growth_27' [29], 'growth' => 'growth_28' [30], 'growth' => 'growth_29' [31], 'growth' => 'growth_30' [32], 'growth' => 'growth_31' [33], 'growth' => 'growth_32' [34], 'growth' => 'growt [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X1' [1], 'X36' [36], 'X45' [45] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38] 
+Warning messages:
+1: In log1p(idx_dt[1:(nrow(idx_dt) - 1), i]/idx_dt[nrow(idx_dt), i]) :
+  NaNs produced
+2: In log1p(idx_dt[1:(nrow(idx_dt) - 1), i]/idx_dt[nrow(idx_dt), i]) :
+  NaNs produced
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "Dashboard CSIS"
+Writing to sheet "df_update_new"
+Writing to "Dashboard CSIS"
+Writing to sheet "last cov"
+Writing to "Dashboard CSIS"
+Writing to sheet "last mob"
+Writing to "Dashboard CSIS"
+Writing to sheet "Agregat Mobility"
+Writing to "Dashboard CSIS"
+Writing to sheet "Agregat COVID"
+Writing to "Dashboard CSIS"
+Writing to sheet "raw cov"
+Writing to "Dashboard CSIS"
+Writing to sheet "raw mob"
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+Warning message:
+'html' is deprecated.
+Use 'xml2::read_html' instead.
+See help("Deprecated") 
+trying URL 'https://data.humdata.org/dataset/c3429f0e-651b-4788-bb2f-4adbf222c90e/resource/31ca909c-10d9-458a-8720-88b54b3e3627/download/movement-range-data-2020-07-30.zip'
+Content type 'application/zip' length 27929475 bytes (26.6 MB)
+==================================================
+downloaded 26.6 MB
+
+Warning message:
+In for (a in as.list(elist)) if (!missing(a) && mayCallBrowser(a,  :
+  closing unused connection 3 (/tmp/RtmpmJ7IBM/file688846885009/movement-range-2020-07-30.txt)
+Warning message:
+In .Internal(get0(x, envir, mode, inherits, ifnotfound)) :
+  closing unused connection 4 (/tmp/RtmpmJ7IBM/file688846885009/movement-range-2020-07-30.txt)
+Warning messages:
+1: Missing column names filled in: 'X36' [36], 'X45' [45], 'X47' [47], 'X91' [91] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38], 'Aceh' => 'Aceh_1' [48], 'Bali' => 'Bali_1' [49], 'Banten' => 'Banten_1' [50], 'Babel' => 'Babel_1' [51], 'Bengkulu' => 'Bengkulu_1' [52], 'DIY' => 'DIY_1' [53], 'Jakarta' => 'Jakarta_1' [54], 'Jambi' => 'Jambi_1' [55], 'Jabar' => 'Jabar_1' [56], 'Jateng' => 'Jateng_1' [57], 'Jatim' => 'Jatim_1' [58], 'Kalbar' => 'Kalbar_1' [59], 'Kaltim' => 'Kaltim_1' [60], 'Kalteng' => 'Kalteng_1' [61], 'Kalsel' => 'Kalsel_1' [62], 'Kaltara' => 'Kaltara_1' [63], 'Kep Riau' => 'Kep Riau_1' [64], 'NTB' => 'NTB_1' [65], 'Sumsel' => 'Sumsel_1' [66], 'Sumbar' => 'Sumbar_1' [67], 'Sulut' => 'Sulut_1' [68], 'Sumut' => 'Sumut_1' [69], 'Sultra' => 'Sultra_1' [70], 'Sulsel' => 'Sulsel_1' [71], 'Sulteng' => 'Sulteng_1' [72], 'Lampung' => 'Lampung_1' [73], 'Riau' => 'Riau_1' [74], 'Malut' => 'Malut_1' [75], 'Maluku' => 'Maluku_1' [76], 'Papbar' => 'Papbar_1' [77], 'Papua' => 'Papua_2' [78], 'Sulbar' => 'Sulbar_1' [79], 'NTT' => 'NTT_1' [80], 'Goron [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X36' [36], 'X45' [45], 'X47' [47], 'X91' [91] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38], 'Aceh' => 'Aceh_1' [48], 'Bali' => 'Bali_1' [49], 'Banten' => 'Banten_1' [50], 'Babel' => 'Babel_1' [51], 'Bengkulu' => 'Bengkulu_1' [52], 'DIY' => 'DIY_1' [53], 'Jakarta' => 'Jakarta_1' [54], 'Jambi' => 'Jambi_1' [55], 'Jabar' => 'Jabar_1' [56], 'Jateng' => 'Jateng_1' [57], 'Jatim' => 'Jatim_1' [58], 'Kalbar' => 'Kalbar_1' [59], 'Kaltim' => 'Kaltim_1' [60], 'Kalteng' => 'Kalteng_1' [61], 'Kalsel' => 'Kalsel_1' [62], 'Kaltara' => 'Kaltara_1' [63], 'Kep Riau' => 'Kep Riau_1' [64], 'NTB' => 'NTB_1' [65], 'Sumsel' => 'Sumsel_1' [66], 'Sumbar' => 'Sumbar_1' [67], 'Sulut' => 'Sulut_1' [68], 'Sumut' => 'Sumut_1' [69], 'Sultra' => 'Sultra_1' [70], 'Sulsel' => 'Sulsel_1' [71], 'Sulteng' => 'Sulteng_1' [72], 'Lampung' => 'Lampung_1' [73], 'Riau' => 'Riau_1' [74], 'Malut' => 'Malut_1' [75], 'Maluku' => 'Maluku_1' [76], 'Papbar' => 'Papbar_1' [77], 'Papua' => 'Papua_2' [78], 'Sulbar' => 'Sulbar_1' [79], 'NTT' => 'NTT_1' [80], 'Goron [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X36' [36] 
+2: Duplicated column names deduplicated: 'Aceh' => 'Aceh_1' [37], 'Bali' => 'Bali_1' [38], 'Banten' => 'Banten_1' [39], 'Babel' => 'Babel_1' [40], 'Bengkulu' => 'Bengkulu_1' [41], 'DIY' => 'DIY_1' [42], 'Jakarta' => 'Jakarta_1' [43], 'Jambi' => 'Jambi_1' [44], 'Jabar' => 'Jabar_1' [45], 'Jateng' => 'Jateng_1' [46], 'Jatim' => 'Jatim_1' [47], 'Kalbar' => 'Kalbar_1' [48], 'Kaltim' => 'Kaltim_1' [49], 'Kalteng' => 'Kalteng_1' [50], 'Kalsel' => 'Kalsel_1' [51], 'Kaltara' => 'Kaltara_1' [52], 'Kep Riau' => 'Kep Riau_1' [53], 'NTB' => 'NTB_1' [54], 'Sumsel' => 'Sumsel_1' [55], 'Sumbar' => 'Sumbar_1' [56], 'Sulut' => 'Sulut_1' [57], 'Sumut' => 'Sumut_1' [58], 'Sultra' => 'Sultra_1' [59], 'Sulsel' => 'Sulsel_1' [60], 'Sulteng' => 'Sulteng_1' [61], 'Lampung' => 'Lampung_1' [62], 'Riau' => 'Riau_1' [63], 'Malut' => 'Malut_1' [64], 'Maluku' => 'Maluku_1' [65], 'Papbar' => 'Papbar_1' [66], 'Papua' => 'Papua_1' [67], 'Sulbar' => 'Sulbar_1' [68], 'NTT' => 'NTT_1' [69], 'Gorontalo' => 'Gorontalo_1' [70] [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X47' [47] 
+2: Duplicated column names deduplicated: 'growth' => 'growth_1' [3], 'growth' => 'growth_2' [4], 'growth' => 'growth_3' [5], 'growth' => 'growth_4' [6], 'growth' => 'growth_5' [7], 'growth' => 'growth_6' [8], 'growth' => 'growth_7' [9], 'growth' => 'growth_8' [10], 'growth' => 'growth_9' [11], 'growth' => 'growth_10' [12], 'growth' => 'growth_11' [13], 'growth' => 'growth_12' [14], 'growth' => 'growth_13' [15], 'growth' => 'growth_14' [16], 'growth' => 'growth_15' [17], 'growth' => 'growth_16' [18], 'growth' => 'growth_17' [19], 'growth' => 'growth_18' [20], 'growth' => 'growth_19' [21], 'growth' => 'growth_20' [22], 'growth' => 'growth_21' [23], 'growth' => 'growth_22' [24], 'growth' => 'growth_23' [25], 'growth' => 'growth_24' [26], 'growth' => 'growth_25' [27], 'growth' => 'growth_26' [28], 'growth' => 'growth_27' [29], 'growth' => 'growth_28' [30], 'growth' => 'growth_29' [31], 'growth' => 'growth_30' [32], 'growth' => 'growth_31' [33], 'growth' => 'growth_32' [34], 'growth' => 'growt [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X1' [1], 'X36' [36], 'X45' [45] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38] 
+Warning messages:
+1: In log1p(idx_dt[1:(nrow(idx_dt) - 1), i]/idx_dt[nrow(idx_dt), i]) :
+  NaNs produced
+2: In log1p(idx_dt[1:(nrow(idx_dt) - 1), i]/idx_dt[nrow(idx_dt), i]) :
+  NaNs produced
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "Dashboard CSIS"
+Writing to sheet "df_update_new"
+Writing to "Dashboard CSIS"
+Writing to sheet "last cov"
+Writing to "Dashboard CSIS"
+Writing to sheet "last mob"
+Writing to "Dashboard CSIS"
+Writing to sheet "Agregat Mobility"
+Writing to "Dashboard CSIS"
+Writing to sheet "Agregat COVID"
+Writing to "Dashboard CSIS"
+Writing to sheet "raw cov"
+Writing to "Dashboard CSIS"
+Writing to sheet "raw mob"
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'dplyr' was built under R version 3.6.2 
+Warning message:
+package 'tidyr' was built under R version 3.6.2 
+Warning message:
+package 'gsheet' was built under R version 3.6.2 
+Warning message:
+package 'googlesheets4' was built under R version 3.6.2 
+Warning message:
+package 'naniar' was built under R version 3.6.2 
+Loading required package: gsubfn
+Loading required package: proto
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Loading required package: RSQLite
+Warning messages:
+1: In system2("/usr/bin/otool", c("-L", shQuote(DSO)), stdout = TRUE) :
+  running command ''/usr/bin/otool' -L '/Library/Frameworks/R.framework/Resources/library/tcltk/libs//tcltk.so'' had status 1
+2: In fun(libname, pkgname) :
+  no display name and no $DISPLAY environment variable
+Loading required package: xml2
+Warning message:
+package 'xml2' was built under R version 3.6.2 
+Warning message:
+package 'tibble' was built under R version 3.6.2 
+Warning message:
+'html' is deprecated.
+Use 'xml2::read_html' instead.
+See help("Deprecated") 
+trying URL 'https://data.humdata.org/dataset/c3429f0e-651b-4788-bb2f-4adbf222c90e/resource/31ca909c-10d9-458a-8720-88b54b3e3627/download/movement-range-data-2020-07-31.zip'
+Content type 'application/zip' length 28089212 bytes (26.8 MB)
+==================================================
+downloaded 26.8 MB
+
+Warning message:
+In for (a in as.list(elist)) if (!missing(a) && mayCallBrowser(a,  :
+  closing unused connection 3 (/tmp/RtmpQ05drp/file9d7614f8a2f/movement-range-2020-07-31.txt)
+Warning message:
+In .Internal(get0(x, envir, mode, inherits, ifnotfound)) :
+  closing unused connection 4 (/tmp/RtmpQ05drp/file9d7614f8a2f/movement-range-2020-07-31.txt)
+Warning messages:
+1: Missing column names filled in: 'X36' [36], 'X45' [45], 'X47' [47], 'X91' [91] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38], 'Aceh' => 'Aceh_1' [48], 'Bali' => 'Bali_1' [49], 'Banten' => 'Banten_1' [50], 'Babel' => 'Babel_1' [51], 'Bengkulu' => 'Bengkulu_1' [52], 'DIY' => 'DIY_1' [53], 'Jakarta' => 'Jakarta_1' [54], 'Jambi' => 'Jambi_1' [55], 'Jabar' => 'Jabar_1' [56], 'Jateng' => 'Jateng_1' [57], 'Jatim' => 'Jatim_1' [58], 'Kalbar' => 'Kalbar_1' [59], 'Kaltim' => 'Kaltim_1' [60], 'Kalteng' => 'Kalteng_1' [61], 'Kalsel' => 'Kalsel_1' [62], 'Kaltara' => 'Kaltara_1' [63], 'Kep Riau' => 'Kep Riau_1' [64], 'NTB' => 'NTB_1' [65], 'Sumsel' => 'Sumsel_1' [66], 'Sumbar' => 'Sumbar_1' [67], 'Sulut' => 'Sulut_1' [68], 'Sumut' => 'Sumut_1' [69], 'Sultra' => 'Sultra_1' [70], 'Sulsel' => 'Sulsel_1' [71], 'Sulteng' => 'Sulteng_1' [72], 'Lampung' => 'Lampung_1' [73], 'Riau' => 'Riau_1' [74], 'Malut' => 'Malut_1' [75], 'Maluku' => 'Maluku_1' [76], 'Papbar' => 'Papbar_1' [77], 'Papua' => 'Papua_2' [78], 'Sulbar' => 'Sulbar_1' [79], 'NTT' => 'NTT_1' [80], 'Goron [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X36' [36], 'X45' [45], 'X47' [47], 'X91' [91] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38], 'Aceh' => 'Aceh_1' [48], 'Bali' => 'Bali_1' [49], 'Banten' => 'Banten_1' [50], 'Babel' => 'Babel_1' [51], 'Bengkulu' => 'Bengkulu_1' [52], 'DIY' => 'DIY_1' [53], 'Jakarta' => 'Jakarta_1' [54], 'Jambi' => 'Jambi_1' [55], 'Jabar' => 'Jabar_1' [56], 'Jateng' => 'Jateng_1' [57], 'Jatim' => 'Jatim_1' [58], 'Kalbar' => 'Kalbar_1' [59], 'Kaltim' => 'Kaltim_1' [60], 'Kalteng' => 'Kalteng_1' [61], 'Kalsel' => 'Kalsel_1' [62], 'Kaltara' => 'Kaltara_1' [63], 'Kep Riau' => 'Kep Riau_1' [64], 'NTB' => 'NTB_1' [65], 'Sumsel' => 'Sumsel_1' [66], 'Sumbar' => 'Sumbar_1' [67], 'Sulut' => 'Sulut_1' [68], 'Sumut' => 'Sumut_1' [69], 'Sultra' => 'Sultra_1' [70], 'Sulsel' => 'Sulsel_1' [71], 'Sulteng' => 'Sulteng_1' [72], 'Lampung' => 'Lampung_1' [73], 'Riau' => 'Riau_1' [74], 'Malut' => 'Malut_1' [75], 'Maluku' => 'Maluku_1' [76], 'Papbar' => 'Papbar_1' [77], 'Papua' => 'Papua_2' [78], 'Sulbar' => 'Sulbar_1' [79], 'NTT' => 'NTT_1' [80], 'Goron [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X36' [36] 
+2: Duplicated column names deduplicated: 'Aceh' => 'Aceh_1' [37], 'Bali' => 'Bali_1' [38], 'Banten' => 'Banten_1' [39], 'Babel' => 'Babel_1' [40], 'Bengkulu' => 'Bengkulu_1' [41], 'DIY' => 'DIY_1' [42], 'Jakarta' => 'Jakarta_1' [43], 'Jambi' => 'Jambi_1' [44], 'Jabar' => 'Jabar_1' [45], 'Jateng' => 'Jateng_1' [46], 'Jatim' => 'Jatim_1' [47], 'Kalbar' => 'Kalbar_1' [48], 'Kaltim' => 'Kaltim_1' [49], 'Kalteng' => 'Kalteng_1' [50], 'Kalsel' => 'Kalsel_1' [51], 'Kaltara' => 'Kaltara_1' [52], 'Kep Riau' => 'Kep Riau_1' [53], 'NTB' => 'NTB_1' [54], 'Sumsel' => 'Sumsel_1' [55], 'Sumbar' => 'Sumbar_1' [56], 'Sulut' => 'Sulut_1' [57], 'Sumut' => 'Sumut_1' [58], 'Sultra' => 'Sultra_1' [59], 'Sulsel' => 'Sulsel_1' [60], 'Sulteng' => 'Sulteng_1' [61], 'Lampung' => 'Lampung_1' [62], 'Riau' => 'Riau_1' [63], 'Malut' => 'Malut_1' [64], 'Maluku' => 'Maluku_1' [65], 'Papbar' => 'Papbar_1' [66], 'Papua' => 'Papua_1' [67], 'Sulbar' => 'Sulbar_1' [68], 'NTT' => 'NTT_1' [69], 'Gorontalo' => 'Gorontalo_1' [70] [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X47' [47] 
+2: Duplicated column names deduplicated: 'growth' => 'growth_1' [3], 'growth' => 'growth_2' [4], 'growth' => 'growth_3' [5], 'growth' => 'growth_4' [6], 'growth' => 'growth_5' [7], 'growth' => 'growth_6' [8], 'growth' => 'growth_7' [9], 'growth' => 'growth_8' [10], 'growth' => 'growth_9' [11], 'growth' => 'growth_10' [12], 'growth' => 'growth_11' [13], 'growth' => 'growth_12' [14], 'growth' => 'growth_13' [15], 'growth' => 'growth_14' [16], 'growth' => 'growth_15' [17], 'growth' => 'growth_16' [18], 'growth' => 'growth_17' [19], 'growth' => 'growth_18' [20], 'growth' => 'growth_19' [21], 'growth' => 'growth_20' [22], 'growth' => 'growth_21' [23], 'growth' => 'growth_22' [24], 'growth' => 'growth_23' [25], 'growth' => 'growth_24' [26], 'growth' => 'growth_25' [27], 'growth' => 'growth_26' [28], 'growth' => 'growth_27' [29], 'growth' => 'growth_28' [30], 'growth' => 'growth_29' [31], 'growth' => 'growth_30' [32], 'growth' => 'growth_31' [33], 'growth' => 'growth_32' [34], 'growth' => 'growt [... truncated] 
+Warning messages:
+1: Missing column names filled in: 'X1' [1], 'X36' [36], 'X45' [45] 
+2: Duplicated column names deduplicated: 'Papua' => 'Papua_1' [38] 
+Warning messages:
+1: In log1p(idx_dt[1:(nrow(idx_dt) - 1), i]/idx_dt[nrow(idx_dt), i]) :
+  NaNs produced
+2: In log1p(idx_dt[1:(nrow(idx_dt) - 1), i]/idx_dt[nrow(idx_dt), i]) :
+  NaNs produced
+Using an auto-discovered, cached token.
+To suppress this message, modify your code or options to clearly consent to the use of a cached token.
+See gargle's "Non-interactive auth" vignette for more details:
+https://gargle.r-lib.org/articles/non-interactive-auth.html
+The googlesheets4 package is using a cached token for athar.iswandi@gmail.com.
+Auto-refreshing stale OAuth token.
+Writing to "Dashboard CSIS"
+Writing to sheet "df_update_new"
+Writing to "Dashboard CSIS"
+Writing to sheet "last cov"
+Writing to "Dashboard CSIS"
+Writing to sheet "last mob"
+Writing to "Dashboard CSIS"
+Writing to sheet "Agregat Mobility"
+Writing to "Dashboard CSIS"
+Writing to sheet "Agregat COVID"
+Writing to "Dashboard CSIS"
+Writing to sheet "raw cov"
+Writing to "Dashboard CSIS"
+Writing to sheet "raw mob"
